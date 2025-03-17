@@ -1,11 +1,17 @@
+import nltk
+
+try:
+    nltk.download('stopwords')
+except Exception as e:
+    print("Error downloading stopwords:", e)
+
+
 import joblib
 import streamlit as st
 import pandas as pd
 import preprocess_text 
 import random
 
-import nltk
-nltk.download('stopwords')
 
 # Load Model
 model = joblib.load("models\scam_detector_tfidf_word.pkl")
