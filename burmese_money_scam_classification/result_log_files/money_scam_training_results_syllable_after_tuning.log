@@ -1,0 +1,1183 @@
+2025-03-03 16:42:44 - Training Started...
+2025-03-03 16:42:44 - Training Model: Logistic Regression
+2025-03-03 16:42:49 - Training Model: Decision Tree
+Original Class Distribution: {0: 2481, 1: 10905, 2: 5961}
+Full Training Set Size: 15477
+Test Set Size: 3870
+Training Pool Size: 12381
+Validation Set Size: 3096
+
+========================================
+Training Model: Logistic Regression
+========================================
+Fold 1 Class Distribution:
+label
+1    5583
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 1 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8583
+Confusion Matrix:
+ [[ 250   42   26]
+ [ 134 1232   30]
+ [  82   37  644]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.54      0.79      0.64       318
+           1       0.94      0.88      0.91      1396
+           2       0.92      0.84      0.88       763
+
+    accuracy                           0.86      2477
+   macro avg       0.80      0.84      0.81      2477
+weighted avg       0.88      0.86      0.87      2477
+
+F1-Score: 0.8661
+ROC-AUC: 0.9566
+Log Loss: 0.3857
+----------------------------------------
+
+Fold 2 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 2 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8566
+Confusion Matrix:
+ [[ 257   28   32]
+ [ 131 1211   54]
+ [  68   42  653]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.81      0.66       317
+           1       0.95      0.87      0.90      1396
+           2       0.88      0.86      0.87       763
+
+    accuracy                           0.86      2476
+   macro avg       0.80      0.84      0.81      2476
+weighted avg       0.88      0.86      0.86      2476
+
+F1-Score: 0.8632
+ROC-AUC: 0.9607
+Log Loss: 0.3856
+----------------------------------------
+
+Fold 3 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 3 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8615
+Confusion Matrix:
+ [[ 255   32   30]
+ [ 132 1216   48]
+ [  70   31  662]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.80      0.66       317
+           1       0.95      0.87      0.91      1396
+           2       0.89      0.87      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.80      0.85      0.82      2476
+weighted avg       0.88      0.86      0.87      2476
+
+F1-Score: 0.8684
+ROC-AUC: 0.9626
+Log Loss: 0.3697
+----------------------------------------
+
+Fold 4 Class Distribution:
+label
+1    5584
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1395
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 4 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8631
+Confusion Matrix:
+ [[ 251   35   32]
+ [ 119 1227   49]
+ [  71   33  659]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.57      0.79      0.66       318
+           1       0.95      0.88      0.91      1395
+           2       0.89      0.86      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.80      0.84      0.82      2476
+weighted avg       0.88      0.86      0.87      2476
+
+F1-Score: 0.8692
+ROC-AUC: 0.9601
+Log Loss: 0.3786
+----------------------------------------
+
+Fold 5 Class Distribution:
+label
+1    5583
+2    3052
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     762
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 5 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8631
+Confusion Matrix:
+ [[ 254   29   35]
+ [ 122 1223   51]
+ [  73   29  660]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.57      0.80      0.66       318
+           1       0.95      0.88      0.91      1396
+           2       0.88      0.87      0.88       762
+
+    accuracy                           0.86      2476
+   macro avg       0.80      0.85      0.82      2476
+weighted avg       0.88      0.86      0.87      2476
+
+F1-Score: 0.8696
+ROC-AUC: 0.9612
+Log Loss: 0.3830
+----------------------------------------
+
+
+Average F1-Score for Logistic Regression: 0.8673
+
+========================================
+Training Model: Decision Tree
+========================================
+Fold 1 Class Distribution:
+label
+1    5583
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 1 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8167
+Confusion Matrix:
+ [[ 203   74   41]
+ [  92 1218   86]
+ [  80   81  602]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.54      0.64      0.59       318
+           1       0.89      0.87      0.88      1396
+           2       0.83      0.79      0.81       763
+
+    accuracy                           0.82      2477
+   macro avg       0.75      0.77      0.76      2477
+weighted avg       0.82      0.82      0.82      2477
+
+F1-Score: 0.8196
+ROC-AUC: 0.8430
+Log Loss: 6.1113
+----------------------------------------
+
+Fold 2 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 2 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8126
+Confusion Matrix:
+ [[ 192   64   61]
+ [  98 1206   92]
+ [  77   72  614]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.52      0.61      0.56       317
+           1       0.90      0.86      0.88      1396
+           2       0.80      0.80      0.80       763
+
+    accuracy                           0.81      2476
+   macro avg       0.74      0.76      0.75      2476
+weighted avg       0.82      0.81      0.82      2476
+
+F1-Score: 0.8159
+ROC-AUC: 0.8364
+Log Loss: 6.3025
+----------------------------------------
+
+Fold 3 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 3 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8235
+Confusion Matrix:
+ [[ 186   78   53]
+ [  84 1221   91]
+ [  56   75  632]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.57      0.59      0.58       317
+           1       0.89      0.87      0.88      1396
+           2       0.81      0.83      0.82       763
+
+    accuracy                           0.82      2476
+   macro avg       0.76      0.76      0.76      2476
+weighted avg       0.83      0.82      0.82      2476
+
+F1-Score: 0.8242
+ROC-AUC: 0.8380
+Log Loss: 6.0385
+----------------------------------------
+
+Fold 4 Class Distribution:
+label
+1    5584
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1395
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 4 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8187
+Confusion Matrix:
+ [[ 185   79   54]
+ [  91 1217   87]
+ [  67   71  625]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.54      0.58      0.56       318
+           1       0.89      0.87      0.88      1395
+           2       0.82      0.82      0.82       763
+
+    accuracy                           0.82      2476
+   macro avg       0.75      0.76      0.75      2476
+weighted avg       0.82      0.82      0.82      2476
+2025-03-03 16:42:59 - Training Model: Random Forest
+2025-03-03 16:43:47 - Training Model: XGBoost
+
+F1-Score: 0.8203
+ROC-AUC: 0.8355
+Log Loss: 6.1535
+----------------------------------------
+
+Fold 5 Class Distribution:
+label
+1    5583
+2    3052
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     762
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 5 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8275
+Confusion Matrix:
+ [[ 207   69   42]
+ [ 102 1206   88]
+ [  65   61  636]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.55      0.65      0.60       318
+           1       0.90      0.86      0.88      1396
+           2       0.83      0.83      0.83       762
+
+    accuracy                           0.83      2476
+   macro avg       0.76      0.78      0.77      2476
+weighted avg       0.84      0.83      0.83      2476
+
+F1-Score: 0.8308
+ROC-AUC: 0.8539
+Log Loss: 5.7213
+----------------------------------------
+
+
+Average F1-Score for Decision Tree: 0.8222
+
+========================================
+Training Model: Random Forest
+========================================
+Fold 1 Class Distribution:
+label
+1    5583
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 1 (Random Forest)
+----------------------------------------
+Accuracy: 0.8728
+Confusion Matrix:
+ [[ 181  101   36]
+ [  32 1333   31]
+ [  39   76  648]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.72      0.57      0.64       318
+           1       0.88      0.95      0.92      1396
+           2       0.91      0.85      0.88       763
+
+    accuracy                           0.87      2477
+   macro avg       0.84      0.79      0.81      2477
+weighted avg       0.87      0.87      0.87      2477
+
+F1-Score: 0.8687
+ROC-AUC: 0.9636
+Log Loss: 0.3553
+----------------------------------------
+
+Fold 2 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 2 (Random Forest)
+----------------------------------------
+Accuracy: 0.8736
+Confusion Matrix:
+ [[ 186   87   44]
+ [  40 1325   31]
+ [  29   82  652]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.73      0.59      0.65       317
+           1       0.89      0.95      0.92      1396
+           2       0.90      0.85      0.88       763
+
+    accuracy                           0.87      2476
+   macro avg       0.84      0.80      0.81      2476
+weighted avg       0.87      0.87      0.87      2476
+
+F1-Score: 0.8699
+ROC-AUC: 0.9629
+Log Loss: 0.3775
+----------------------------------------
+
+Fold 3 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 3 (Random Forest)
+----------------------------------------
+Accuracy: 0.8897
+Confusion Matrix:
+ [[ 183  102   32]
+ [  23 1346   27]
+ [  30   59  674]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.78      0.58      0.66       317
+           1       0.89      0.96      0.93      1396
+           2       0.92      0.88      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.81      0.83      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8852
+ROC-AUC: 0.9688
+Log Loss: 0.3537
+----------------------------------------
+
+Fold 4 Class Distribution:
+label
+1    5584
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1395
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 4 (Random Forest)
+----------------------------------------
+Accuracy: 0.8704
+Confusion Matrix:
+ [[ 173  105   40]
+ [  32 1324   39]
+ [  30   75  658]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.74      0.54      0.63       318
+           1       0.88      0.95      0.91      1395
+           2       0.89      0.86      0.88       763
+
+    accuracy                           0.87      2476
+   macro avg       0.84      0.79      0.81      2476
+weighted avg       0.87      0.87      0.87      2476
+
+F1-Score: 0.8653
+ROC-AUC: 0.9593
+Log Loss: 0.3955
+----------------------------------------
+
+Fold 5 Class Distribution:
+label
+1    5583
+2    3052
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     762
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 5 (Random Forest)
+----------------------------------------
+Accuracy: 0.8841
+Confusion Matrix:
+ [[ 188   86   44]
+ [  37 1329   30]
+ [  30   60  672]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.74      0.59      0.66       318
+           1       0.90      0.95      0.93      1396
+           2       0.90      0.88      0.89       762
+
+    accuracy                           0.88      2476
+   macro avg       0.85      0.81      0.82      2476
+weighted avg       0.88      0.88      0.88      2476
+
+F1-Score: 0.8805
+ROC-AUC: 0.9666
+Log Loss: 0.3477
+----------------------------------------
+
+
+Average F1-Score for Random Forest: 0.8739
+
+========================================
+Training Model: XGBoost
+========================================
+Fold 1 Class Distribution:
+label
+1    5583
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 1 (XGBoost)
+----------------------------------------
+Accuracy: 0.8825
+Confusion Matrix:
+ [[ 192   87   39]
+ [  34 1337   25]
+ [  36   70  657]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.73      0.60      0.66       318
+           1       0.89      0.96      0.93      1396
+           2       0.91      0.86      0.89       763
+
+    accuracy                           0.88      2477
+   macro avg       0.85      0.81      0.82      2477
+weighted avg       0.88      0.88      0.88      2477
+
+F1-Score: 0.8792
+ROC-AUC: 0.9681
+Log Loss: 0.2987
+----------------------------------------
+
+Fold 2 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 2 (XGBoost)
+----------------------------------------
+Accuracy: 0.8837
+Confusion Matrix:
+ [[ 204   71   42]
+ [  42 1319   35]
+ [  26   72  665]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.75      0.64      0.69       317
+           1       0.90      0.94      0.92      1396
+           2       0.90      0.87      0.88       763
+
+    accuracy                           0.88      2476
+   macro avg       0.85      0.82      0.83      2476
+weighted avg       0.88      0.88      0.88      2476
+
+F1-Score: 0.8814
+ROC-AUC: 0.9697
+Log Loss: 0.2906
+----------------------------------------
+
+Fold 3 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 3 (XGBoost)
+----------------------------------------
+Accuracy: 0.8938
+Confusion Matrix:
+ [[ 195   85   37]
+ [  27 1337   32]
+ [  29   53  681]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.78      0.62      0.69       317
+           1       0.91      0.96      0.93      1396
+           2       0.91      0.89      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.82      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+2025-03-03 16:45:00 - Training Model: SVM
+2025-03-03 16:50:04 - Training Model: Naive Bayes
+
+F1-Score: 0.8904
+ROC-AUC: 0.9703
+Log Loss: 0.2844
+----------------------------------------
+
+Fold 4 Class Distribution:
+label
+1    5584
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1395
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 4 (XGBoost)
+----------------------------------------
+Accuracy: 0.8845
+Confusion Matrix:
+ [[ 189   86   43]
+ [  39 1322   34]
+ [  25   59  679]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.75      0.59      0.66       318
+           1       0.90      0.95      0.92      1395
+           2       0.90      0.89      0.89       763
+
+    accuracy                           0.88      2476
+   macro avg       0.85      0.81      0.83      2476
+weighted avg       0.88      0.88      0.88      2476
+
+F1-Score: 0.8810
+ROC-AUC: 0.9676
+Log Loss: 0.2972
+----------------------------------------
+
+Fold 5 Class Distribution:
+label
+1    5583
+2    3052
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     762
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 5 (XGBoost)
+----------------------------------------
+Accuracy: 0.8865
+Confusion Matrix:
+ [[ 194   71   53]
+ [  44 1320   32]
+ [  25   56  681]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.74      0.61      0.67       318
+           1       0.91      0.95      0.93      1396
+           2       0.89      0.89      0.89       762
+
+    accuracy                           0.89      2476
+   macro avg       0.85      0.82      0.83      2476
+weighted avg       0.88      0.89      0.88      2476
+
+F1-Score: 0.8836
+ROC-AUC: 0.9688
+Log Loss: 0.2887
+----------------------------------------
+
+
+Average F1-Score for XGBoost: 0.8831
+
+========================================
+Training Model: SVM
+========================================
+Fold 1 Class Distribution:
+label
+1    5583
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 1 (SVM)
+----------------------------------------
+Accuracy: 0.8825
+Confusion Matrix:
+ [[ 237   55   26]
+ [  86 1283   27]
+ [  49   48  666]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.64      0.75      0.69       318
+           1       0.93      0.92      0.92      1396
+           2       0.93      0.87      0.90       763
+
+    accuracy                           0.88      2477
+   macro avg       0.83      0.85      0.84      2477
+weighted avg       0.89      0.88      0.88      2477
+
+F1-Score: 0.8849
+ROC-AUC: 0.9610
+Log Loss: 0.3204
+----------------------------------------
+
+Fold 2 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 2 (SVM)
+----------------------------------------
+Accuracy: 0.8776
+Confusion Matrix:
+ [[ 251   35   31]
+ [  90 1256   50]
+ [  50   47  666]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.64      0.79      0.71       317
+           1       0.94      0.90      0.92      1396
+           2       0.89      0.87      0.88       763
+
+    accuracy                           0.88      2476
+   macro avg       0.82      0.85      0.84      2476
+weighted avg       0.89      0.88      0.88      2476
+
+F1-Score: 0.8806
+ROC-AUC: 0.9642
+Log Loss: 0.3110
+----------------------------------------
+
+Fold 3 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 3 (SVM)
+----------------------------------------
+Accuracy: 0.8922
+Confusion Matrix:
+ [[ 243   46   28]
+ [  77 1282   37]
+ [  41   38  684]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.67      0.77      0.72       317
+           1       0.94      0.92      0.93      1396
+           2       0.91      0.90      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.84      0.86      0.85      2476
+weighted avg       0.90      0.89      0.89      2476
+
+F1-Score: 0.8940
+ROC-AUC: 0.9682
+Log Loss: 0.2960
+----------------------------------------
+
+Fold 4 Class Distribution:
+label
+1    5584
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1395
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 4 (SVM)
+----------------------------------------
+Accuracy: 0.8893
+Confusion Matrix:
+ [[ 249   37   32]
+ [  84 1271   40]
+ [  51   30  682]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.65      0.78      0.71       318
+           1       0.95      0.91      0.93      1395
+           2       0.90      0.89      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.83      0.86      0.85      2476
+weighted avg       0.90      0.89      0.89      2476
+
+F1-Score: 0.8922
+ROC-AUC: 0.9646
+Log Loss: 0.3077
+----------------------------------------
+
+Fold 5 Class Distribution:
+label
+1    5583
+2    3052
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     762
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 5 (SVM)
+----------------------------------------
+Accuracy: 0.8849
+Confusion Matrix:
+ [[ 240   39   39]
+ [  90 1268   38]
+ [  39   40  683]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.65      0.75      0.70       318
+           1       0.94      0.91      0.92      1396
+           2       0.90      0.90      0.90       762
+
+    accuracy                           0.88      2476
+   macro avg       0.83      0.85      0.84      2476
+weighted avg       0.89      0.88      0.89      2476
+
+F1-Score: 0.8872
+ROC-AUC: 0.9662
+Log Loss: 0.3101
+----------------------------------------
+
+
+Average F1-Score for SVM: 0.8878
+
+========================================
+Training Model: Naive Bayes
+========================================
+Fold 1 Class Distribution:
+label
+1    5583
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 1 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8478
+Confusion Matrix:
+ [[ 158  108   52]
+ [  48 1311   37]
+ [  20  112  631]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.50      0.58       318
+           1       0.86      0.94      0.90      1396
+           2       0.88      0.83      0.85       763
+
+    accuracy                           0.85      2477
+   macro avg       0.81      0.75      0.78      2477
+weighted avg       0.84      0.85      0.84      2477
+
+F1-Score: 0.8416
+ROC-AUC: 0.9519
+Log Loss: 0.3819
+----------------------------------------
+
+Fold 2 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 2 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8558
+Confusion Matrix:
+ [[ 157  114   46]
+ [  39 1317   40]
+ [   9  109  645]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.77      0.50      0.60       317
+           1       0.86      0.94      0.90      1396
+           2       0.88      0.85      0.86       763
+
+    accuracy                           0.86      2476
+   macro avg       0.83      0.76      0.79      2476
+weighted avg       0.85      0.86      0.85      2476
+
+F1-Score: 0.8489
+ROC-AUC: 0.9579
+Log Loss: 0.3648
+----------------------------------------
+
+Fold 3 Class Distribution:
+label
+1    5583
+2    3051
+0    1271
+Name: count, dtype: int64
+label
+1    1396
+2     763
+0     317
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 3 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8570
+Confusion Matrix:
+ [[ 155  101   61]
+ [  42 1308   46]
+ [   9   95  659]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.75      0.49      0.59       317
+           1       0.87      0.94      0.90      1396
+           2       0.86      0.86      0.86       763
+
+    accuracy                           0.86      2476
+   macro avg       0.83      0.76      0.79      2476
+weighted avg       0.85      0.86      0.85      2476
+
+F1-Score: 0.8501
+ROC-AUC: 0.9569
+Log Loss: 0.3653
+----------------------------------------
+
+Fold 4 Class Distribution:
+label
+1    5584
+2    3051
+0    1270
+Name: count, dtype: int64
+label
+1    1395
+2     763
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 4 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8558
+Confusion Matrix:
+ [[ 149  117   52]
+ [  37 1321   37]
+ [  11  103  649]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.76      0.47      0.58       318
+           1       0.86      0.95      0.90      1395
+           2       0.88      0.85      0.86       763
+
+    accuracy                           0.86      2476
+   macro avg       0.83      0.76      0.78      2476
+weighted avg       0.85      0.86      0.85      2476
+
+F1-Score: 0.8478
+ROC-AUC: 0.9565
+Log Loss: 0.3691
+----------------------------------------
+
+Fold 5 Class Distribution:
+label
+1    5583
+2    3052
+0    1270
+Name: count, dtype: int64
+label
+1    1396
+2     762
+0     318
+Name: count, dtype: int64
+
+----------------------------------------
+Evaluating Fold 5 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8554
+Confusion Matrix:
+ [[ 164  103   51]
+ [  48 1301   47]
+ [   4  105  653]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.76      0.52      0.61       318
+           1       0.86      0.93      0.90      1396
+           2       0.87      0.86      0.86       762
+
+    accuracy                           0.86      2476
+   macro avg       0.83      0.77      0.79      2476
+weighted avg       0.85      0.86      0.85      2476
+
+F1-Score: 0.8495
+ROC-AUC: 0.9561
+Log Loss: 0.3733
+----------------------------------------
+
+
+Average F1-Score for Naive Bayes: 0.8476
+
+======================================================================
+Model Performance Summary
+======================================================================
++---------------------+--------------------+
+| Model               |   Average F1-Score |
++=====================+====================+
+| Logistic Regression |             0.8673 |
++---------------------+--------------------+
+| Decision Tree       |             0.8222 |
++---------------------+--------------------+
+| Random Forest       |             0.8739 |
++---------------------+--------------------+
+| XGBoost             |             0.8831 |
++---------------------+--------------------+
+| SVM                 |             0.8878 |
++---------------------+--------------------+
+| Naive Bayes         |             0.8476 |
++---------------------+--------------------+
+
+======================================================================
+Best Model: SVM (F1-Score: 0.8878)
+======================================================================
+
+========================================
+Hyperparameter Tuning for SVM
+========================================
+Best Hyperparameters for SVM: {'classifier__kernel': 'rbf', 'classifier__gamma': 1, 'classifier__degree': 4, 'classifier__C': 1}
+
+========================================
+Final Evaluation on Test Set
+========================================
+Accuracy: 0.8899
+Confusion Matrix:
+ [[ 395   55   46]
+ [ 120 1998   63]
+ [  80   62 1051]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.66      0.80      0.72       496
+           1       0.94      0.92      0.93      2181
+           2       0.91      0.88      0.89      1193
+
+    accuracy                           0.89      3870
+   macro avg       0.84      0.86      0.85      3870
+weighted avg       0.90      0.89      0.89      3870
+
+F1-Score: 0.8924
+ROC-AUC: 0.9687
+Log Loss: 0.2954
+----------------------------------------
+
+
+Training Complete. Logs saved in: C:\Users\nuwai\Documents\Sophia_Skill_Development\Sophia_projects\Burmese Scam Detector\burmese_money_scam_classification\money_scam_training_results.log

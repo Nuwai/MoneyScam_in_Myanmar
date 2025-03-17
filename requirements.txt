@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+numpy
+streamlit
+nltk
+joblib
+myTokenize
+emoji
+scipy
+gensim

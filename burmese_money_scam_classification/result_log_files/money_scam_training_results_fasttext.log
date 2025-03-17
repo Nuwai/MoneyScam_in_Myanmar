@@ -1,0 +1,723 @@
+2025-03-08 12:25:35 - Training Started...
+2025-03-08 12:25:35 - Training Model: Logistic Regression
+2025-03-08 12:25:35 - loading FastText object from fasttext.model
+2025-03-08 12:25:35 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:25:35 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:25:46 - setting ignored attribute buckets_word to None
+2025-03-08 12:25:46 - setting ignored attribute vectors to None
+2025-03-08 12:25:48 - setting ignored attribute cum_table to None
+2025-03-08 12:25:48 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:25:48.344183', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:26:13 - loading FastText object from fasttext.model
+2025-03-08 12:26:13 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:26:13 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:26:54 - setting ignored attribute buckets_word to None
+2025-03-08 12:26:54 - setting ignored attribute vectors to None
+2025-03-08 12:26:58 - setting ignored attribute cum_table to None
+2025-03-08 12:26:59 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:26:59.488149', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:27:08 - loading FastText object from fasttext.model
+2025-03-08 12:27:09 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:27:09 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:27:52 - setting ignored attribute buckets_word to None
+2025-03-08 12:27:52 - setting ignored attribute vectors to None
+2025-03-08 12:27:56 - setting ignored attribute cum_table to None
+2025-03-08 12:27:56 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:27:56.530538', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:28:07 - loading FastText object from fasttext.model
+2025-03-08 12:28:07 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:28:07 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:28:40 - setting ignored attribute buckets_word to None
+2025-03-08 12:28:40 - setting ignored attribute vectors to None
+2025-03-08 12:28:42 - setting ignored attribute cum_table to None
+2025-03-08 12:28:42 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:28:42.659455', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:28:50 - loading FastText object from fasttext.model
+2025-03-08 12:28:50 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:28:50 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:29:52 - setting ignored attribute buckets_word to None
+2025-03-08 12:29:52 - setting ignored attribute vectors to None
+2025-03-08 12:29:57 - setting ignored attribute cum_table to None
+2025-03-08 12:29:57 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:29:57.506873', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:30:05 - Training Model: Decision Tree
+2025-03-08 12:30:05 - loading FastText object from fasttext.model
+2025-03-08 12:30:05 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:30:05 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:30:52 - setting ignored attribute buckets_word to None
+2025-03-08 12:30:52 - setting ignored attribute vectors to None
+2025-03-08 12:30:58 - setting ignored attribute cum_table to None
+2025-03-08 12:30:58 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:30:58.550310', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:31:37 - loading FastText object from fasttext.model
+2025-03-08 12:31:37 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:31:37 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:32:04 - setting ignored attribute buckets_word to None
+2025-03-08 12:32:04 - setting ignored attribute vectors to None
+2025-03-08 12:32:06 - setting ignored attribute cum_table to None
+2025-03-08 12:32:06 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:32:06.579635', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:32:28 - loading FastText object from fasttext.model
+2025-03-08 12:32:29 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:32:30 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:33:32 - setting ignored attribute buckets_word to None
+2025-03-08 12:33:33 - setting ignored attribute vectors to None
+2025-03-08 12:33:37 - setting ignored attribute cum_table to None
+2025-03-08 12:33:38 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:33:38.357768', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:33:51 - loading FastText object from fasttext.model
+2025-03-08 12:33:51 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:33:51 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:34:45 - setting ignored attribute buckets_word to None
+2025-03-08 12:34:45 - setting ignored attribute vectors to None
+2025-03-08 12:34:50 - setting ignored attribute cum_table to None
+2025-03-08 12:34:50 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:34:50.820586', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:35:05 - loading FastText object from fasttext.model
+2025-03-08 12:35:05 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:35:05 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:36:04 - setting ignored attribute buckets_word to None
+2025-03-08 12:36:05 - setting ignored attribute vectors to None
+2025-03-08 12:36:11 - setting ignored attribute cum_table to None
+2025-03-08 12:36:13 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:36:13.260536', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:36:29 - Training Model: Random Forest
+2025-03-08 12:36:29 - loading FastText object from fasttext.model
+2025-03-08 12:36:29 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:36:29 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:37:33 - setting ignored attribute buckets_word to None
+2025-03-08 12:37:34 - setting ignored attribute vectors to None
+2025-03-08 12:37:39 - setting ignored attribute cum_table to None
+2025-03-08 12:37:42 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:37:42.111292', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+Original Class Distribution: {0: 2481, 1: 10905, 2: 5961}
+Full Training Set Size: 15477
+Test Set Size: 3870
+Training Pool Size: 12381
+Validation Set Size: 3096
+Selected Vectorizer Type is fasttext.
+
+========================================
+Training Model: Logistic Regression
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8208
+Confusion Matrix:
+ [[ 228   48   42]
+ [ 173 1169   54]
+ [  83   44  636]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.47      0.72      0.57       318
+           1       0.93      0.84      0.88      1396
+           2       0.87      0.83      0.85       763
+
+    accuracy                           0.82      2477
+   macro avg       0.76      0.80      0.77      2477
+weighted avg       0.85      0.82      0.83      2477
+
+F1-Score: 0.8310
+ROC-AUC: 0.9255
+Log Loss: 0.5210
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8279
+Confusion Matrix:
+ [[ 241   37   39]
+ [ 180 1158   58]
+ [  75   37  651]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.76      0.59       317
+           1       0.94      0.83      0.88      1396
+           2       0.87      0.85      0.86       763
+
+    accuracy                           0.83      2476
+   macro avg       0.77      0.81      0.78      2476
+weighted avg       0.86      0.83      0.84      2476
+
+F1-Score: 0.8383
+ROC-AUC: 0.9357
+Log Loss: 0.5001
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8461
+Confusion Matrix:
+ [[ 253   39   25]
+ [ 165 1175   56]
+ [  61   35  667]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.53      0.80      0.64       317
+           1       0.94      0.84      0.89      1396
+           2       0.89      0.87      0.88       763
+
+    accuracy                           0.85      2476
+   macro avg       0.79      0.84      0.80      2476
+weighted avg       0.87      0.85      0.85      2476
+
+F1-Score: 0.8544
+ROC-AUC: 0.9361
+Log Loss: 0.4815
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8284
+Confusion Matrix:
+ [[ 237   46   35]
+ [ 172 1162   61]
+ [  73   38  652]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.75      0.59       318
+           1       0.93      0.83      0.88      1395
+           2       0.87      0.85      0.86       763
+
+    accuracy                           0.83      2476
+   macro avg       0.77      0.81      0.78      2476
+weighted avg       0.86      0.83      0.84      2476
+
+F1-Score: 0.8378
+ROC-AUC: 0.9310
+Log Loss: 0.5106
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8235
+Confusion Matrix:
+ [[ 230   44   44]
+ [ 182 1155   59]
+ [  60   48  654]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.72      0.58       318
+           1       0.93      0.83      0.87      1396
+           2       0.86      0.86      0.86       762
+
+    accuracy                           0.82      2476
+   macro avg       0.76      0.80      0.77      2476
+weighted avg       0.85      0.82      0.83      2476
+
+F1-Score: 0.8326
+ROC-AUC: 0.9242
+Log Loss: 0.5264
+----------------------------------------
+
+
+Average F1-Score for Logistic Regression: 0.8388
+
+========================================
+Training Model: Decision Tree
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7735
+Confusion Matrix:
+ [[ 150  115   53]
+ [ 114 1166  116]
+ [  42  121  600]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.47      0.48       318
+           1       0.83      0.84      0.83      1396
+           2       0.78      0.79      0.78       763
+
+    accuracy                           0.77      2477
+   macro avg       0.70      0.70      0.70      2477
+weighted avg       0.77      0.77      0.77      2477
+
+F1-Score: 0.7727
+ROC-AUC: 0.7839
+Log Loss: 8.1636
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7609
+Confusion Matrix:
+ [[ 146  121   50]
+ [ 116 1151  129]
+ [  58  118  587]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.46      0.46      0.46       317
+           1       0.83      0.82      0.83      1396
+           2       0.77      0.77      0.77       763
+
+    accuracy                           0.76      2476
+   macro avg       0.68      0.68      0.68      2476
+weighted avg       0.76      0.76      0.76      2476
+
+F1-Score: 0.7612
+ROC-AUC: 0.7746
+Log Loss: 8.6182
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7827
+Confusion Matrix:
+ [[ 151  117   49]
+ [ 104 1181  111]
+ [  56  101  606]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.48      0.48       317
+           1       0.84      0.85      0.85      1396
+           2       0.79      0.79      0.79       763
+
+    accuracy                           0.78      2476
+   macro avg       0.71      0.71      0.71      2476
+weighted avg       0.78      0.78      0.78      2476
+
+F1-Score: 0.7823
+ROC-AUC: 0.7919
+Log Loss: 7.7756
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7754
+Confusion Matrix:
+ [[ 148  123   47]
+ [ 104 1184  107]
+ [  51  124  588]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.47      0.48       318
+           1       0.83      0.85      0.84      1395
+           2       0.79      0.77      0.78       763
+
+    accuracy                           0.78      2476
+   macro avg       0.70      0.69      0.70      2476
+weighted avg       0.77      0.78      0.77      2476
+
+F1-Score: 0.7741
+ROC-AUC: 0.7838
+Log Loss: 7.9977
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7678
+Confusion Matrix:
+ [[ 130  126   62]
+ [ 113 1180  103]
+ [  40  131  591]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.46      0.41      0.43       318
+           1       0.82      0.85      0.83      1396
+           2       0.78      0.78      0.78       762
+
+    accuracy                           0.77      2476
+   macro avg       0.69      0.68      0.68      2476
+weighted avg       0.76      0.77      0.76      2476
+
+F1-Score: 0.7649
+ROC-AUC: 0.7708
+Log Loss: 8.3566
+----------------------------------------
+
+
+Average F1-Score for Decision Tree: 0.7710
+
+========================================
+Training Model: Random Forest
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Random Forest)
+----------------------------------------
+Accuracy: 0.8494
+Confusion Matrix:
+ [[ 135  150   33]
+ [  22 1363   11]
+ [  12  145  606]]2025-03-08 12:38:13 - loading FastText object from fasttext.model
+2025-03-08 12:38:13 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:38:13 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:39:31 - setting ignored attribute buckets_word to None
+2025-03-08 12:39:31 - setting ignored attribute vectors to None
+2025-03-08 12:39:35 - setting ignored attribute cum_table to None
+2025-03-08 12:39:37 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:39:37.000734', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:40:08 - loading FastText object from fasttext.model
+2025-03-08 12:40:08 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:40:08 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:41:02 - setting ignored attribute buckets_word to None
+2025-03-08 12:41:03 - setting ignored attribute vectors to None
+2025-03-08 12:41:05 - setting ignored attribute cum_table to None
+2025-03-08 12:41:06 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:41:06.179940', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:41:35 - loading FastText object from fasttext.model
+2025-03-08 12:41:35 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:41:35 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:42:21 - setting ignored attribute buckets_word to None
+2025-03-08 12:42:22 - setting ignored attribute vectors to None
+2025-03-08 12:42:26 - setting ignored attribute cum_table to None
+2025-03-08 12:42:27 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:42:27.428203', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:42:59 - loading FastText object from fasttext.model
+2025-03-08 12:42:59 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:42:59 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:44:24 - setting ignored attribute buckets_word to None
+2025-03-08 12:44:24 - setting ignored attribute vectors to None
+2025-03-08 12:44:29 - setting ignored attribute cum_table to None
+2025-03-08 12:44:30 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:44:30.582411', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:44:59 - Training Model: SVM
+2025-03-08 12:45:00 - loading FastText object from fasttext.model
+2025-03-08 12:45:00 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:45:00 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:45:30 - setting ignored attribute buckets_word to None
+2025-03-08 12:45:30 - setting ignored attribute vectors to None
+2025-03-08 12:45:32 - setting ignored attribute cum_table to None
+2025-03-08 12:45:32 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:45:32.255671', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:47:34 - loading FastText object from fasttext.model
+2025-03-08 12:47:34 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:47:34 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:47:38 - setting ignored attribute buckets_word to None
+2025-03-08 12:47:38 - setting ignored attribute vectors to None
+2025-03-08 12:47:40 - setting ignored attribute cum_table to None
+2025-03-08 12:47:40 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:47:40.409638', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:49:36 - loading FastText object from fasttext.model
+2025-03-08 12:49:36 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:49:36 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:50:10 - setting ignored attribute buckets_word to None
+2025-03-08 12:50:10 - setting ignored attribute vectors to None
+2025-03-08 12:50:17 - setting ignored attribute cum_table to None
+2025-03-08 12:50:18 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:50:18.517131', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:52:04 - loading FastText object from fasttext.model
+2025-03-08 12:52:04 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:52:04 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:52:32 - setting ignored attribute buckets_word to None
+2025-03-08 12:52:32 - setting ignored attribute vectors to None
+2025-03-08 12:52:34 - setting ignored attribute cum_table to None
+2025-03-08 12:52:35 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:52:35.296097', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-08 12:54:11 - loading FastText object from fasttext.model
+2025-03-08 12:54:11 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2025-03-08 12:54:11 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2025-03-08 12:54:19 - setting ignored attribute buckets_word to None
+2025-03-08 12:54:19 - setting ignored attribute vectors to None
+2025-03-08 12:54:21 - setting ignored attribute cum_table to None
+2025-03-08 12:54:21 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2025-03-08T12:54:21.532763', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.80      0.42      0.55       318
+           1       0.82      0.98      0.89      1396
+           2       0.93      0.79      0.86       763
+
+    accuracy                           0.85      2477
+   macro avg       0.85      0.73      0.77      2477
+weighted avg       0.85      0.85      0.84      2477
+
+F1-Score: 0.8384
+ROC-AUC: 0.9563
+Log Loss: 0.4000
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Random Forest)
+----------------------------------------
+Accuracy: 0.8506
+Confusion Matrix:
+ [[ 129  161   27]
+ [  16 1364   16]
+ [   8  142  613]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.84      0.41      0.55       317
+           1       0.82      0.98      0.89      1396
+           2       0.93      0.80      0.86       763
+
+    accuracy                           0.85      2476
+   macro avg       0.87      0.73      0.77      2476
+weighted avg       0.86      0.85      0.84      2476
+
+F1-Score: 0.8387
+ROC-AUC: 0.9614
+Log Loss: 0.3944
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Random Forest)
+----------------------------------------
+Accuracy: 0.8562
+Confusion Matrix:
+ [[ 121  168   28]
+ [  11 1365   20]
+ [  11  118  634]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.85      0.38      0.53       317
+           1       0.83      0.98      0.90      1396
+           2       0.93      0.83      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.87      0.73      0.77      2476
+weighted avg       0.86      0.86      0.84      2476
+
+F1-Score: 0.8429
+ROC-AUC: 0.9578
+Log Loss: 0.4003
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Random Forest)
+----------------------------------------
+Accuracy: 0.8502
+Confusion Matrix:
+ [[ 116  174   28]
+ [  16 1369   10]
+ [  17  126  620]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.78      0.36      0.50       318
+           1       0.82      0.98      0.89      1395
+           2       0.94      0.81      0.87       763
+
+    accuracy                           0.85      2476
+   macro avg       0.85      0.72      0.75      2476
+weighted avg       0.85      0.85      0.84      2476
+
+F1-Score: 0.8362
+ROC-AUC: 0.9555
+Log Loss: 0.4024
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Random Forest)
+----------------------------------------
+Accuracy: 0.8502
+Confusion Matrix:
+ [[ 123  156   39]
+ [  33 1349   14]
+ [  11  118  633]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.74      0.39      0.51       318
+           1       0.83      0.97      0.89      1396
+           2       0.92      0.83      0.87       762
+
+    accuracy                           0.85      2476
+   macro avg       0.83      0.73      0.76      2476
+weighted avg       0.85      0.85      0.84      2476
+
+F1-Score: 0.8381
+ROC-AUC: 0.9487
+Log Loss: 0.4241
+----------------------------------------
+
+
+Average F1-Score for Random Forest: 0.8389
+
+========================================
+Training Model: SVM
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (SVM)
+----------------------------------------
+Accuracy: 0.8551
+Confusion Matrix:
+ [[ 253   27   38]
+ [ 148 1221   27]
+ [  71   48  644]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.54      0.80      0.64       318
+           1       0.94      0.87      0.91      1396
+           2       0.91      0.84      0.88       763
+
+    accuracy                           0.86      2477
+   macro avg       0.80      0.84      0.81      2477
+weighted avg       0.88      0.86      0.86      2477
+
+F1-Score: 0.8630
+ROC-AUC: 0.9514
+Log Loss: 0.3649
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (SVM)
+----------------------------------------
+Accuracy: 0.8590
+Confusion Matrix:
+ [[ 271   20   26]
+ [ 155 1200   41]
+ [  71   36  656]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.55      0.85      0.67       317
+           1       0.96      0.86      0.90      1396
+           2       0.91      0.86      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.80      0.86      0.82      2476
+weighted avg       0.89      0.86      0.87      2476
+
+F1-Score: 0.8676
+ROC-AUC: 0.9606
+Log Loss: 0.3295
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (SVM)
+----------------------------------------
+Accuracy: 0.8647
+Confusion Matrix:
+ [[ 259   36   22]
+ [ 139 1214   43]
+ [  63   32  668]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.82      0.67       317
+           1       0.95      0.87      0.91      1396
+           2       0.91      0.88      0.89       763
+
+    accuracy                           0.86      2476
+   macro avg       0.81      0.85      0.82      2476
+weighted avg       0.89      0.86      0.87      2476
+
+F1-Score: 0.8716
+ROC-AUC: 0.9582
+Log Loss: 0.3262
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (SVM)
+----------------------------------------
+Accuracy: 0.8534
+Confusion Matrix:
+ [[ 255   41   22]
+ [ 147 1209   39]
+ [  83   31  649]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.53      0.80      0.64       318
+           1       0.94      0.87      0.90      1395
+           2       0.91      0.85      0.88       763
+
+    accuracy                           0.85      2476
+   macro avg       0.79      0.84      0.81      2476
+weighted avg       0.88      0.85      0.86      2476
+
+F1-Score: 0.8622
+ROC-AUC: 0.9534
+Log Loss: 0.3520
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (SVM)
+----------------------------------------
+Accuracy: 0.8489
+Confusion Matrix:
+ [[ 242   39   37]
+ [ 157 1208   31]
+ [  72   38  652]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.51      0.76      0.61       318
+           1       0.94      0.87      0.90      1396
+           2       0.91      0.86      0.88       762
+
+    accuracy                           0.85      2476
+   macro avg       0.79      0.83      0.80      2476
+weighted avg       0.87      0.85      0.86      2476
+
+F1-Score: 0.8577
+ROC-AUC: 0.9495
+Log Loss: 0.3611
+----------------------------------------
+
+
+Average F1-Score for SVM: 0.8644
+
+======================================================================
+Model Performance Summary
+======================================================================
++---------------------+--------------------+
+| Model               |   Average F1-Score |
++=====================+====================+
+| Logistic Regression |             0.8388 |
++---------------------+--------------------+
+| Decision Tree       |             0.771  |
++---------------------+--------------------+
+| Random Forest       |             0.8389 |
++---------------------+--------------------+
+| SVM                 |             0.8644 |
++---------------------+--------------------+
+
+======================================================================
+Best Model: SVM (F1-Score: 0.8644)
+======================================================================
+
+========================================
+Final Evaluation on Test Set
+========================================
+Accuracy: 0.8690
+Confusion Matrix:
+ [[ 405   52   39]
+ [ 203 1923   55]
+ [ 110   48 1035]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.82      0.67       496
+           1       0.95      0.88      0.91      2181
+           2       0.92      0.87      0.89      1193
+
+    accuracy                           0.87      3870
+   macro avg       0.81      0.86      0.82      3870
+weighted avg       0.89      0.87      0.88      3870
+
+F1-Score: 0.8759
+Precision: 0.8906
+Recall: 0.8690
+ROC-AUC: 0.9629
+Log Loss: 0.3184
+----------------------------------------
+
+
+Training Complete. Logs saved in: C:\Users\nuwai\Documents\Sophia_Skill_Development\Sophia_projects\Burmese Scam Detector\burmese_money_scam_classification\money_scam_training_results.log

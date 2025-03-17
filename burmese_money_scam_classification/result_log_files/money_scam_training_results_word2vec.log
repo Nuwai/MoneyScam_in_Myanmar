@@ -1,0 +1,663 @@
+2025-03-09 20:01:19 - Training Started...
+2025-03-09 20:01:19 - Training Model: Logistic Regression
+2025-03-09 20:01:19 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:19 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:19 - setting ignored attribute cum_table to None
+2025-03-09 20:01:19 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:19.977036', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:01:24 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:24 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:24 - setting ignored attribute cum_table to None
+2025-03-09 20:01:24 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:24.602215', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:01:29 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:29 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:29 - setting ignored attribute cum_table to None
+2025-03-09 20:01:29 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:29.242152', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:01:34 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:34 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:34 - setting ignored attribute cum_table to None
+2025-03-09 20:01:34 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:34.222566', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:01:39 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:39 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:39 - setting ignored attribute cum_table to None
+2025-03-09 20:01:39 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:39.866463', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:01:44 - Training Model: Decision Tree
+2025-03-09 20:01:44 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:44 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:44 - setting ignored attribute cum_table to None
+2025-03-09 20:01:45 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:45.114161', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:01:56 - loading Word2Vec object from word2vec.model
+2025-03-09 20:01:56 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:01:56 - setting ignored attribute cum_table to None
+2025-03-09 20:01:57 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:01:57.050094', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:02:08 - loading Word2Vec object from word2vec.model
+2025-03-09 20:02:08 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:02:08 - setting ignored attribute cum_table to None
+2025-03-09 20:02:08 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:02:08.241920', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:02:19 - loading Word2Vec object from word2vec.model
+2025-03-09 20:02:19 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:02:19 - setting ignored attribute cum_table to None
+2025-03-09 20:02:19 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:02:19.329207', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:02:29 - loading Word2Vec object from word2vec.model
+2025-03-09 20:02:29 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:02:29 - setting ignored attribute cum_table to None
+2025-03-09 20:02:30 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:02:30.023301', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:02:41 - Training Model: Random Forest
+2025-03-09 20:02:41 - loading Word2Vec object from word2vec.model
+2025-03-09 20:02:41 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:02:41 - setting ignored attribute cum_table to None
+2025-03-09 20:02:41 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:02:41.476483', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+Original Class Distribution: {0: 2481, 1: 10905, 2: 5961}
+Full Training Set Size: 15477
+Test Set Size: 3870
+Training Pool Size: 12381
+Validation Set Size: 3096
+Selected Vectorizer Type is word2vec.
+
+========================================
+Training Model: Logistic Regression
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8426
+Confusion Matrix:
+ [[ 242   33   43]
+ [ 155 1202   39]
+ [  88   32  643]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.50      0.76      0.60       318
+           1       0.95      0.86      0.90      1396
+           2       0.89      0.84      0.86       763
+
+    accuracy                           0.84      2477
+   macro avg       0.78      0.82      0.79      2477
+weighted avg       0.87      0.84      0.85      2477
+
+F1-Score: 0.8524
+ROC-AUC: 0.9382
+Log Loss: 0.4792
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8562
+Confusion Matrix:
+ [[ 252   32   33]
+ [ 137 1213   46]
+ [  75   33  655]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.54      0.79      0.65       317
+           1       0.95      0.87      0.91      1396
+           2       0.89      0.86      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.79      0.84      0.81      2476
+weighted avg       0.88      0.86      0.86      2476
+
+F1-Score: 0.8638
+ROC-AUC: 0.9461
+Log Loss: 0.4540
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8534
+Confusion Matrix:
+ [[ 252   40   25]
+ [ 147 1192   57]
+ [  64   30  669]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.54      0.79      0.65       317
+           1       0.94      0.85      0.90      1396
+           2       0.89      0.88      0.88       763
+
+    accuracy                           0.85      2476
+   macro avg       0.79      0.84      0.81      2476
+weighted avg       0.88      0.85      0.86      2476
+
+F1-Score: 0.8608
+ROC-AUC: 0.9450
+Log Loss: 0.4528
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8542
+Confusion Matrix:
+ [[ 254   40   24]
+ [ 144 1196   55]
+ [  63   35  665]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.55      0.80      0.65       318
+           1       0.94      0.86      0.90      1395
+           2       0.89      0.87      0.88       763
+
+    accuracy                           0.85      2476
+   macro avg       0.80      0.84      0.81      2476
+weighted avg       0.88      0.85      0.86      2476
+
+F1-Score: 0.8612
+ROC-AUC: 0.9471
+Log Loss: 0.4588
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Logistic Regression)
+----------------------------------------
+Accuracy: 0.8481
+Confusion Matrix:
+ [[ 231   45   42]
+ [ 147 1201   48]
+ [  59   35  668]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.53      0.73      0.61       318
+           1       0.94      0.86      0.90      1396
+           2       0.88      0.88      0.88       762
+
+    accuracy                           0.85      2476
+   macro avg       0.78      0.82      0.80      2476
+weighted avg       0.87      0.85      0.85      2476
+
+F1-Score: 0.8550
+ROC-AUC: 0.9379
+Log Loss: 0.4715
+----------------------------------------
+
+
+Average F1-Score for Logistic Regression: 0.8586
+
+========================================
+Training Model: Decision Tree
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7808
+Confusion Matrix:
+ [[ 161  103   54]
+ [ 105 1192   99]
+ [  58  124  581]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.50      0.51      0.50       318
+           1       0.84      0.85      0.85      1396
+           2       0.79      0.76      0.78       763
+
+    accuracy                           0.78      2477
+   macro avg       0.71      0.71      0.71      2477
+weighted avg       0.78      0.78      0.78      2477
+
+F1-Score: 0.7808
+ROC-AUC: 0.7913
+Log Loss: 7.8876
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7888
+Confusion Matrix:
+ [[ 159  109   49]
+ [ 109 1188   99]
+ [  51  106  606]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.50      0.50      0.50       317
+           1       0.85      0.85      0.85      1396
+           2       0.80      0.79      0.80       763
+
+    accuracy                           0.79      2476
+   macro avg       0.72      0.72      0.72      2476
+weighted avg       0.79      0.79      0.79      2476
+
+F1-Score: 0.7888
+ROC-AUC: 0.7978
+Log Loss: 7.6001
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8013
+Confusion Matrix:
+ [[ 157  114   46]
+ [  72 1220  104]
+ [  50  106  607]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.50      0.53       317
+           1       0.85      0.87      0.86      1396
+           2       0.80      0.80      0.80       763
+
+    accuracy                           0.80      2476
+   macro avg       0.74      0.72      0.73      2476
+weighted avg       0.80      0.80      0.80      2476
+
+F1-Score: 0.7987
+ROC-AUC: 0.8035
+Log Loss: 7.1059
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7876
+Confusion Matrix:
+ [[ 140  131   47]
+ [  95 1205   95]
+ [  53  105  605]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.49      0.44      0.46       318
+           1       0.84      0.86      0.85      1395
+           2       0.81      0.79      0.80       763
+
+    accuracy                           0.79      2476
+   macro avg       0.71      0.70      0.70      2476
+weighted avg       0.78      0.79      0.79      2476
+
+F1-Score: 0.7851
+ROC-AUC: 0.7887
+Log Loss: 7.6025
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Decision Tree)
+----------------------------------------
+Accuracy: 0.7900
+Confusion Matrix:
+ [[ 152   98   68]
+ [  87 1200  109]
+ [  46  112  604]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.53      0.48      0.50       318
+           1       0.85      0.86      0.86      1396
+           2       0.77      0.79      0.78       762
+
+    accuracy                           0.79      2476
+   macro avg       0.72      0.71      0.71      2476
+weighted avg       0.79      0.79      0.79      2476
+
+F1-Score: 0.7879
+ROC-AUC: 0.7954
+Log Loss: 7.5285
+----------------------------------------
+
+
+Average F1-Score for Decision Tree: 0.7882
+
+========================================
+Training Model: Random Forest
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Random Forest)
+----------------------------------------
+Accuracy: 0.8615
+Confusion Matrix:
+ [[ 150  134   34]
+ [  21 1366    9]
+ [  11  134  618]]2025-03-09 20:03:05 - loading Word2Vec object from word2vec.model
+2025-03-09 20:03:05 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:03:05 - setting ignored attribute cum_table to None
+2025-03-09 20:03:05 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:03:05.814192', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:03:30 - loading Word2Vec object from word2vec.model
+2025-03-09 20:03:30 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:03:30 - setting ignored attribute cum_table to None
+2025-03-09 20:03:30 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:03:30.345186', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:03:54 - loading Word2Vec object from word2vec.model
+2025-03-09 20:03:54 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:03:54 - setting ignored attribute cum_table to None
+2025-03-09 20:03:54 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:03:54.544078', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:04:18 - loading Word2Vec object from word2vec.model
+2025-03-09 20:04:18 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:04:18 - setting ignored attribute cum_table to None
+2025-03-09 20:04:18 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:04:18.438211', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:04:43 - Training Model: SVM
+2025-03-09 20:04:43 - loading Word2Vec object from word2vec.model
+2025-03-09 20:04:43 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:04:43 - setting ignored attribute cum_table to None
+2025-03-09 20:04:43 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:04:43.647450', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:05:58 - loading Word2Vec object from word2vec.model
+2025-03-09 20:05:58 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:05:58 - setting ignored attribute cum_table to None
+2025-03-09 20:05:58 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:05:58.323544', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:07:13 - loading Word2Vec object from word2vec.model
+2025-03-09 20:07:13 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:07:13 - setting ignored attribute cum_table to None
+2025-03-09 20:07:13 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:07:13.739256', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:08:28 - loading Word2Vec object from word2vec.model
+2025-03-09 20:08:28 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:08:28 - setting ignored attribute cum_table to None
+2025-03-09 20:08:28 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:08:28.241018', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+2025-03-09 20:09:42 - loading Word2Vec object from word2vec.model
+2025-03-09 20:09:42 - loading wv recursively from word2vec.model.wv.* with mmap=None
+2025-03-09 20:09:42 - setting ignored attribute cum_table to None
+2025-03-09 20:09:42 - Word2Vec lifecycle event {'fname': 'word2vec.model', 'datetime': '2025-03-09T20:09:42.482310', 'gensim': '4.3.3', 'python': '3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19041-SP0', 'event': 'loaded'}
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.82      0.47      0.60       318
+           1       0.84      0.98      0.90      1396
+           2       0.93      0.81      0.87       763
+
+    accuracy                           0.86      2477
+   macro avg       0.87      0.75      0.79      2477
+weighted avg       0.86      0.86      0.85      2477
+
+F1-Score: 0.8526
+ROC-AUC: 0.9598
+Log Loss: 0.3787
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Random Forest)
+----------------------------------------
+Accuracy: 0.8627
+Confusion Matrix:
+ [[ 141  147   29]
+ [  19 1366   11]
+ [  15  119  629]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.81      0.44      0.57       317
+           1       0.84      0.98      0.90      1396
+           2       0.94      0.82      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.86      0.75      0.78      2476
+weighted avg       0.86      0.86      0.85      2476
+
+F1-Score: 0.8528
+ROC-AUC: 0.9654
+Log Loss: 0.3720
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Random Forest)
+----------------------------------------
+Accuracy: 0.8623
+Confusion Matrix:
+ [[ 133  156   28]
+ [  12 1370   14]
+ [  12  119  632]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.85      0.42      0.56       317
+           1       0.83      0.98      0.90      1396
+           2       0.94      0.83      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.87      0.74      0.78      2476
+weighted avg       0.87      0.86      0.85      2476
+
+F1-Score: 0.8509
+ROC-AUC: 0.9636
+Log Loss: 0.3686
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Random Forest)
+----------------------------------------
+Accuracy: 0.8586
+Confusion Matrix:
+ [[ 138  153   27]
+ [  21 1364   10]
+ [  23  116  624]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.76      0.43      0.55       318
+           1       0.84      0.98      0.90      1395
+           2       0.94      0.82      0.88       763
+
+    accuracy                           0.86      2476
+   macro avg       0.85      0.74      0.78      2476
+weighted avg       0.86      0.86      0.85      2476
+
+F1-Score: 0.8486
+ROC-AUC: 0.9589
+Log Loss: 0.3822
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Random Forest)
+----------------------------------------
+Accuracy: 0.8639
+Confusion Matrix:
+ [[ 143  130   45]
+ [  26 1356   14]
+ [  10  112  640]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.80      0.45      0.58       318
+           1       0.85      0.97      0.91      1396
+           2       0.92      0.84      0.88       762
+
+    accuracy                           0.86      2476
+   macro avg       0.85      0.75      0.79      2476
+weighted avg       0.86      0.86      0.85      2476
+
+F1-Score: 0.8542
+ROC-AUC: 0.9567
+Log Loss: 0.3823
+----------------------------------------
+
+
+Average F1-Score for Random Forest: 0.8518
+
+========================================
+Training Model: SVM
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (SVM)
+----------------------------------------
+Accuracy: 0.8696
+Confusion Matrix:
+ [[ 262   22   34]
+ [ 139 1228   29]
+ [  69   30  664]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.82      0.66       318
+           1       0.96      0.88      0.92      1396
+           2       0.91      0.87      0.89       763
+
+    accuracy                           0.87      2477
+   macro avg       0.81      0.86      0.82      2477
+weighted avg       0.89      0.87      0.88      2477
+
+F1-Score: 0.8772
+ROC-AUC: 0.9570
+Log Loss: 0.3384
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (SVM)
+----------------------------------------
+Accuracy: 0.8639
+Confusion Matrix:
+ [[ 268   22   27]
+ [ 159 1202   35]
+ [  62   32  669]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.55      0.85      0.67       317
+           1       0.96      0.86      0.91      1396
+           2       0.92      0.88      0.90       763
+
+    accuracy                           0.86      2476
+   macro avg       0.81      0.86      0.82      2476
+weighted avg       0.89      0.86      0.87      2476
+
+F1-Score: 0.8722
+ROC-AUC: 0.9631
+Log Loss: 0.3183
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (SVM)
+----------------------------------------
+Accuracy: 0.8700
+Confusion Matrix:
+ [[ 273   26   18]
+ [ 153 1207   36]
+ [  62   27  674]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.56      0.86      0.68       317
+           1       0.96      0.86      0.91      1396
+           2       0.93      0.88      0.90       763
+
+    accuracy                           0.87      2476
+   macro avg       0.81      0.87      0.83      2476
+weighted avg       0.90      0.87      0.88      2476
+
+F1-Score: 0.8779
+ROC-AUC: 0.9635
+Log Loss: 0.3138
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (SVM)
+----------------------------------------
+Accuracy: 0.8651
+Confusion Matrix:
+ [[ 262   33   23]
+ [ 152 1209   34]
+ [  60   32  671]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.55      0.82      0.66       318
+           1       0.95      0.87      0.91      1395
+           2       0.92      0.88      0.90       763
+
+    accuracy                           0.87      2476
+   macro avg       0.81      0.86      0.82      2476
+weighted avg       0.89      0.87      0.87      2476
+
+F1-Score: 0.8728
+ROC-AUC: 0.9603
+Log Loss: 0.3320
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (SVM)
+----------------------------------------
+Accuracy: 0.8623
+Confusion Matrix:
+ [[ 245   35   38]
+ [ 143 1224   29]
+ [  59   37  666]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.55      0.77      0.64       318
+           1       0.94      0.88      0.91      1396
+           2       0.91      0.87      0.89       762
+
+    accuracy                           0.86      2476
+   macro avg       0.80      0.84      0.81      2476
+weighted avg       0.88      0.86      0.87      2476
+
+F1-Score: 0.8692
+ROC-AUC: 0.9556
+Log Loss: 0.3402
+----------------------------------------
+
+
+Average F1-Score for SVM: 0.8738
+
+======================================================================
+Model Performance Summary
+======================================================================
++---------------------+--------------------+
+| Model               |   Average F1-Score |
++=====================+====================+
+| Logistic Regression |             0.8586 |
++---------------------+--------------------+
+| Decision Tree       |             0.7882 |
++---------------------+--------------------+
+| Random Forest       |             0.8518 |
++---------------------+--------------------+
+| SVM                 |             0.8738 |
++---------------------+--------------------+
+
+======================================================================
+Best Model: SVM (F1-Score: 0.8738)
+======================================================================
+
+========================================
+Final Evaluation on Test Set
+========================================
+Accuracy: 0.8742
+Confusion Matrix:
+ [[ 410   41   45]
+ [ 209 1923   49]
+ [ 102   41 1050]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.57      0.83      0.67       496
+           1       0.96      0.88      0.92      2181
+           2       0.92      0.88      0.90      1193
+
+    accuracy                           0.87      3870
+   macro avg       0.82      0.86      0.83      3870
+weighted avg       0.90      0.87      0.88      3870
+
+F1-Score: 0.8812
+Precision: 0.8963
+Recall: 0.8742
+ROC-AUC: 0.9657
+Log Loss: 0.3032
+----------------------------------------
+
+
+Training Complete. Logs saved in: C:\Users\nuwai\Documents\Sophia_Skill_Development\Sophia_projects\Burmese Scam Detector\burmese_money_scam_classification\money_scam_training_results.log
