@@ -1,3 +1,10 @@
+import nltk
+
+try:
+    nltk.download('stopwords')
+except Exception as e:
+    print("Error downloading stopwords:", e)
+    
 import joblib
 import streamlit as st
 import pandas as pd
