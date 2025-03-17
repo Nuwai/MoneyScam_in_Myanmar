@@ -4,6 +4,9 @@ import pandas as pd
 import preprocess_text 
 import random
 
+import nltk
+nltk.download('stopwords')
+
 # Load Model
 model = joblib.load("models\scam_detector_tfidf_word.pkl")
 

@@ -23,7 +23,6 @@ Converts text to lowercase and removes extra spaces for consistency across the d
 
 Authour - Nu Wai Thet
 """
-
 import pandas as pd 
 import numpy as np
 import re
