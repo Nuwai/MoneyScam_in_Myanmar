@@ -5,7 +5,7 @@ import preprocess_text
 import random
 
 # Load Model
-model = joblib.load("syllable_unigram_scam_detector.pkl")
+model = joblib.load("models\scam_detector_tfidf_word.pkl")
 
 fraudulent_messages = [
     "⚠️ Warning! This is a well-known scam tactic. Do not engage.",
@@ -107,9 +107,9 @@ if __name__ == "__main__":
     import sys
     if len(sys.argv) > 1:
         text = " ".join(sys.argv[1:])
-        prediction, danger_level, suggestion = classify_message(text)
-        print(f"\nPredicted Label: {prediction}")
-        print(f"Danger Level: {danger_level}")
+        prediction, danger_level,confidence, suggestion = classify_message(text)
+        print(f"\nDanger Level: {danger_level}")
+        print(f"Prediction Confidence: {prediction}")
         print(f"Suggestion: {suggestion}\n")
     else:
         print("Run the script with a message as an argument or use Streamlit UI.")

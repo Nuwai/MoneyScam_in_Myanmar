@@ -1,3 +1,29 @@
+"""
+Standardizing Placeholders
+Replaces URLs, email addresses, phone numbers, money amounts, internet packages, exchange rates, transaction IDs, and dates with standardized labels (e.g., web_link, email_contact, money_amount, date_info).
+
+Emoji Removal and Counting
+Identifies and counts emojis in the text.
+Removes emojis while preserving other text characters.
+
+Stoword removal for english and burmese
+
+Standalone Number Removal
+Removes standalone numbers (both Arabic and Burmese) from the text to focus on meaningful content.
+
+Hashtag Counting and Removal, keep text
+Identifies and counts hashtags (# followed by text).
+Removes the # symbol but retains the hashtag text.
+
+Punctuation Counting
+Counts occurrences of punctuation marks (e.g., !, ?, ., etc.) to analyze text structure and usage.
+
+Text Normalization
+Converts text to lowercase and removes extra spaces for consistency across the dataset.
+
+Authour - Nu Wai Thet
+"""
+
 import pandas as pd 
 import numpy as np
 import re
@@ -32,7 +58,7 @@ stopword_list2 = [
     "သို့", "ကလေး", "ဦး", "ရောက်", "ရေ", "တတ်", "စရာ", "ရယ်", "လှ", "ဘယ်", "ရာ", "ဟု", "ကြိုက်", "မည်", 
     "တွေ့"
 ]
-stopword_list3 = ["ရှင့်", "ဗျ", "ဗျာ","ရှ င့်" , "ရှင်","ရှ င်"] # my added list
+stopword_list3 = ["ရှင့်", "ဗျ", "ဗျာ","ရှ င့်" , "ရှင်","ရှ င်",] # my added list ရှင့်
 
 burmese_stopwords =list(set(stopword_list1 + stopword_list2 + stopword_list3))
 
@@ -411,7 +437,7 @@ def combine_text(text):
     english_text = remove_english_punctuation(english_text)
     
     # Step 3: Apply stopword removal
-    burmese_text = remove_burmese_stopwords(burmese_text, token_method='Syllable')  
+    burmese_text = remove_burmese_stopwords(burmese_text, token_method='word')  
     english_text = remove_english_stopwords(english_text)  
   
     # Step 4: Recombine while preserving placeholders
@@ -484,7 +510,7 @@ def preprocess_text(text):
     # Step 4: Replace placeholders (URLs, mentions, etc.)
     text = replace_placeholders(text)
 
-    # Step56: Remove standalone numbers (not phone numbers or amounts)
+    # Step 5: Remove standalone numbers (not phone numbers or amounts)
     text = remove_standalone_numbers(text)
 
     # Step 6: Normalize text (convert to lowercase)
@@ -496,11 +522,13 @@ def preprocess_text(text):
     return text, emoji_count, hashtag_count, punctuation_counts
 
 
-def load_data_and_run(save=False):
+
+
+def load_data_and_run(save=True):
     
     script_dir = os.path.dirname(__file__)
     data_path = os.path.join(script_dir, "data/labelled_money_scam_text.xlsx")
-    save_path=os.path.join(script_dir,"data/preprocessed_data.xlsx")
+    save_path=os.path.join(script_dir,"data/preprocessed_data_wordtokenize.xlsx")
     # Load the dataset
     df = pd.read_excel(data_path)
     # Apply preprocessing and expand the results into separate columns

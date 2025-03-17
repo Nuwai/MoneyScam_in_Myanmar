@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import StratifiedKFold, train_test_split
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, f1_score, roc_auc_score, log_loss
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, f1_score, precision_score, recall_score, roc_auc_score, log_loss
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
@@ -22,10 +22,58 @@ import logging
 from tabulate import tabulate
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 import joblib
+from gensim.models import Word2Vec, FastText
 
+
+# Custom Transformer for Word2Vec & FastText
+class EmbeddingVectorizer(BaseEstimator, TransformerMixin):
+    def __init__(self, model, tokenize=True):
+        """
+        model: Word2Vec or FastText model
+        tokenize: If True, will split the text before embedding
+        """
+        self.model = model
+        self.vector_size = model.vector_size
+        self.tokenize = tokenize  # Allow tokenization inside transform
+
+    def fit(self, X, y=None):
+        return self  # No fitting needed
+
+    def transform(self, X):
+        """
+        Convert list of texts (raw or tokenized) into sentence embeddings.
+        If a word is not in the vocabulary, it is ignored.
+        If no words are found, return a zero vector.
+        """
+        transformed_X = []
+        
+        for text in X:
+            # Tokenize if input is raw text (string), otherwise assume it's already tokenized
+            words = text.split() if self.tokenize and isinstance(text, str) else text
+            
+            # Get word vectors
+            word_vectors = [self.model.wv[word] for word in words if word in self.model.wv]
+            
+            # If no valid words, return zero vector
+            if len(word_vectors) == 0:
+                transformed_X.append(np.zeros(self.vector_size))
+            else:
+                transformed_X.append(np.mean(word_vectors, axis=0))
+        
+        return np.array(transformed_X)
+    
 
 # Model Pipeline
-def get_classification_pipeline(model):
+def get_classification_pipeline(model, vectorizer_type="tfidf"):
+    """
+    ColumnTransformer:
+    ColumnTransformer.fit_transform(X, y) calls .fit(X, y) followed by .transform(X).
+    When we call .fit_transform(df), it automatically triggers .transform(X) inside EmbeddingVectorizer.
+    This is part of scikit-learn's API design, ensuring transformers behave consistently inside pipelines.
+    ColumnTransformer automatically calls .transform(X) when fit_transform(X, y) or transform(X) is called.
+    Pipeline calls preprocessor.transform(X) before passing data to the classifier.
+    Scikit-learn follows a structured API: Transformers inside ColumnTransformer always execute .transform(X), ensuring smooth feature extraction.
+    """
 
     models = {
         "Logistic Regression": LogisticRegression(class_weight='balanced'),
@@ -37,9 +85,18 @@ def get_classification_pipeline(model):
     }
     
     classifier = models[model]
-    #text_processor = TextPreprocessor()
-    tfidf_vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=1000)
-    
+
+    if vectorizer_type == "tfidf":
+        text_vectorizer = TfidfVectorizer(ngram_range=(1, 1), max_features=1000)
+    elif vectorizer_type == "word2vec":
+        word2vec_model = Word2Vec.load("word2vec.model")
+        text_vectorizer = EmbeddingVectorizer(word2vec_model)
+    elif vectorizer_type == "fasttext":
+        fasttext_model = FastText.load("fasttext.model")
+        text_vectorizer = EmbeddingVectorizer(fasttext_model)
+    else:
+        raise ValueError("Invalid vectorizer_type. Choose 'tfidf', 'word2vec', or 'fasttext'.")
+
     numeric_features = ['emoji_count', 'hashtag_count', 'punctuation_counts']
     numeric_transformer = Pipeline([
         #('imputer', SimpleImputer(strategy='mean')),
@@ -47,7 +104,7 @@ def get_classification_pipeline(model):
     ])
     
     preprocessor = ColumnTransformer([
-        ('text', tfidf_vectorizer, 'processed_text'),
+        ('text', text_vectorizer, 'processed_text'),
         ('num', numeric_transformer, numeric_features)
     ])
     
@@ -81,10 +138,10 @@ def hyperparameter_tuning(best_model, best_model_name, X_val,y_val):
         'classifier__max_depth': [3, 5, 10]
     },
     "SVM": {
-    'classifier__C': [0.001, 0.01, 0.1, 1, 10],  # Finer tuning, avoid overfitting
+    'classifier__C': [0.001, 0.01, 0.1,0.5, 1, 10],  # Finer tuning, avoid overfitting
     'classifier__kernel': ['linear', 'rbf', 'poly', 'sigmoid'],
-    'classifier__gamma': ['scale', 'auto', 0.001, 0.01, 0.1, 1],  # Only for rbf, poly, sigmoid
-    'classifier__degree': [2, 3, 4]  # Only for poly kernel
+    'classifier__gamma': ['scale', 'auto', 0.001, 0.01, 0.1,0.5, 1],  
+    'classifier__degree': [2, 3, 4] 
     },
     "Naive Bayes": {}  # No hyperparameter tuning needed
     }
@@ -103,6 +160,7 @@ def hyperparameter_tuning(best_model, best_model_name, X_val,y_val):
         print(f"Best Hyperparameters for {best_model_name}: {randomized_search.best_params_}")
 
     return best_model
+
 
 def train_and_evaluate(df):
 
@@ -126,17 +184,22 @@ def train_and_evaluate(df):
 
     Stratified K-Fold cross-validation on the train pool for model selection.
     For each fold, model performance is evaluated using metrics like Accuracy, F1-Score, ROC-AUC, and Log Loss.
+    Get the best model based on f1 score which is the harmonice balance between precision and recall
+
+    Perform hyperparamater tuning for best model on validation set to avoid data leakage
     Train Best Model on Full Training Data:
 
     After evaluating and selecting the best model based on cross-validation, train it on the full training pool.
-    Final Test Evaluation:
+    Final Test Evaluation using test set:
 
     After training the best model, evaluate it on the test set, which was not used during training or validation, to get a final performance report.
 
     """
     # Set up logging
-    log_filename = "money_scam_training_results.log"
-    log_filepath = os.path.join(os.getcwd(), log_filename)  # Save in the current directory
+    log_filename = "result_log_files/money_scam_training_results.log"
+    log_filepath = os.path.join(os.getcwd(), log_filename)
+    # Ensure the directory exists before saving the log file
+    os.makedirs(os.path.dirname(log_filepath), exist_ok=True)
 
     logging.basicConfig(
         filename=log_filepath,
@@ -190,47 +253,54 @@ def train_and_evaluate(df):
     print(f"Validation Set Size: {X_val.shape[0]}")
     #print(f"Validation Set Size yval: {y_val.shape[0]}")
 
+    vectorizer_type = "tfidf"
+    print(f"Selected Vectorizer Type is {vectorizer_type}.")
     # Stratified K-Fold Cross-Validation
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-    models = ["Logistic Regression",  "Decision Tree", "Random Forest", "XGBoost", "SVM", "Naive Bayes"]
+    models = ["Logistic Regression"] #,  "Decision Tree", "Random Forest", "XGBoost", "SVM", "Naive Bayes"]
+    if vectorizer_type == 'fasttext' or vectorizer_type =='word2vec':
+        models = ["Logistic Regression",  "Decision Tree", "Random Forest",  "SVM"] # remove xgboost and naive bayes due to negative values
     
     best_model = None
     best_score = 0
     best_model_name = ""
     model_scores = {}
     # Evaluate models using Stratified K-Fold Cross-Validation
+   
     for model_type in models:
         print(f"\n{'='*40}\nTraining Model: {model_type}\n{'='*40}")
         logging.info(f"Training Model: {model_type}")
-        fold_scores = []
+        fold_f1_scores = []
         for fold, (train_idx, val_idx) in enumerate(skf.split(X_train_pool, y_train_pool)):
-            print(f"Fold {fold+1} Class Distribution:")
-            print(y_train_pool.iloc[train_idx].value_counts())
-            print(y_train_pool.iloc[val_idx].value_counts())
+            # print(f"Fold {fold+1} Class Distribution:")
+            # print(y_train_pool.iloc[train_idx].value_counts())
+            # print(y_train_pool.iloc[val_idx].value_counts())
             X_train_fold, X_val_fold = X_train_pool.iloc[train_idx], X_train_pool.iloc[val_idx]
             y_train_fold, y_val_fold = y_train_pool.iloc[train_idx], y_train_pool.iloc[val_idx]  
-
-            pipeline = get_classification_pipeline(model_type)  
+          
+            pipeline = get_classification_pipeline(model_type,  vectorizer_type =vectorizer_type )  
             pipeline.fit(X_train_fold,y_train_fold)
             
             y_pred = pipeline.predict(X_val_fold)
             y_prob = pipeline.predict_proba(X_val_fold)
             
             # Calculate metrics for each fold
-            fold_score = f1_score(y_val_fold, y_pred, average='weighted')
-            fold_scores.append(fold_score)
+            fold_f1 = f1_score(y_val_fold, y_pred, average='weighted')
+            # fold_precision = precision_score(y_val_fold, y_pred, average='weighted')
+            # fold_recall = recall_score(y_val_fold, y_pred, average='weighted')
+            fold_f1_scores.append(fold_f1)
             
             print(f"\n{'-'*40}\nEvaluating Fold {fold+1} ({model_type})\n{'-'*40}")
             print(f"Accuracy: {accuracy_score(y_val_fold, y_pred):.4f}")
             print("Confusion Matrix:\n", confusion_matrix(y_val_fold, y_pred))
             print("Classification Report:\n", classification_report(y_val_fold, y_pred))
-            print(f"F1-Score: {fold_score:.4f}")
+            print(f"F1-Score: {fold_f1:.4f}")
             print(f"ROC-AUC: {roc_auc_score(y_val_fold, y_prob, multi_class='ovr'):.4f}")
             print(f"Log Loss: {log_loss(y_val_fold, y_prob):.4f}")
             print(f"{'-'*40}\n")
         
         # Calculate the average F1 score for this model
-        avg_fold_score = np.mean(fold_scores)
+        avg_fold_score = np.mean(fold_f1_scores)
         model_scores[model_type] = avg_fold_score  # Save result
         print(f"\nAverage F1-Score for {model_type}: {avg_fold_score:.4f}")
         
@@ -247,8 +317,9 @@ def train_and_evaluate(df):
     print(tabulate(table_data, headers=["Model", "Average F1-Score"], tablefmt="grid"))
 
     print(f"\n{'='*70}\nBest Model: {best_model_name} (F1-Score: {best_score:.4f})\n{'='*70}")
-
-    best_model = hyperparameter_tuning(best_model, best_model_name, X_val,y_val)
+    
+    if vectorizer_type == 'tfidf':
+        best_model = hyperparameter_tuning(best_model, best_model_name, X_val,y_val)
     
     # Step 2: Train the best model on the full training set (including train_pool + validation set)
     best_model.fit(X_train, y_train)
@@ -262,13 +333,17 @@ def train_and_evaluate(df):
     print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_test))
     print("Classification Report:\n", classification_report(y_test, y_pred_test))
     print(f"F1-Score: {f1_score(y_test, y_pred_test, average='weighted'):.4f}")
+    print(f"Precision: {precision_score(y_test, y_pred_test, average='weighted'):.4f}")
+    print(f"Recall: {recall_score(y_test, y_pred_test, average='weighted'):.4f}")
     print(f"ROC-AUC: {roc_auc_score(y_test, y_prob_test, multi_class='ovr'):.4f}")
     print(f"Log Loss: {log_loss(y_test, y_prob_test):.4f}")
     print(f"{'-'*40}\n")
     print("\nTraining Complete. Logs saved in:", log_filepath)
 
     # Save the model
-    joblib.dump(best_model, "scam_detector.pkl")
+    model_dir = "models"
+    os.makedirs(model_dir, exist_ok=True)  # Ensure the "models" folder exists
+    joblib.dump(best_model, os.path.join(model_dir, "scam_detector.pkl"))
 
     # Restore original stdout after training
     sys.stdout = sys.__stdout__
@@ -277,7 +352,7 @@ def train_and_evaluate(df):
 if __name__ == "__main__":
 
     script_dir = os.path.dirname(__file__)
-    data_path = os.path.join(script_dir, "data/preprocessed_data.xlsx")
+    data_path = os.path.join(script_dir, "data/preprocessed_data_wordtokenize.xlsx")
     # Load the dataset
     df = pd.read_excel(data_path)
     # Xgboost and Naive Bayes does not work with -1
