@@ -12,7 +12,7 @@ import preprocess_text
 import random
 
 # Load Model
-model = joblib.load("burmese_money_scam_classification\models\scam_detector_tfidf_word.pkl")
+model = joblib.load("burmese_money_scam_classification/models/scam_detector_tfidf_word.pkl")
 
 fraudulent_messages = [
     "⚠️ Warning! This is a well-known scam tactic. Do not engage.",
