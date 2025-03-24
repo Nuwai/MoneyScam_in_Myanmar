@@ -1,10 +1,3 @@
-import nltk
-
-try:
-    nltk.download('stopwords')
-except Exception as e:
-    print("Error downloading stopwords:", e)
-
 import joblib
 import streamlit as st
 import pandas as pd
@@ -12,7 +5,7 @@ import preprocess_text
 import random
 
 # Load Model
-model = joblib.load("burmese_money_scam_classification/models/scam_detector_tfidf_word.pkl")
+model = joblib.load("models\scam_detector_tfidf_word.pkl")
 
 fraudulent_messages = [
     "⚠️ Warning! This is a well-known scam tactic. Do not engage.",
@@ -39,7 +32,7 @@ safe_messages = [
     "🔎 This message appears safe, but always verify important information.",
     "🟢 Looks safe! If you're ever unsure, check official sources.",
     "✅ No fraud detected. However, scams evolve—always stay cautious!",
-    "🟢 The message seems legitimate, but it's always good to be vigilant.",
+    "🟢 The message seems legitimate, but it's always good to stay alert.",
     "🔍 No immediate fraud risk, but online safety is always important.",
     "✅ This message is classified as safe, but be mindful of phishing attempts."
 ]
@@ -80,8 +73,8 @@ def classify_message(text):
     # Assign Risk Level
     risk_levels = {
         2: "🟥 High Risk Scam",
-        1: "🟧 Potential Scam",
-        0: "🟩 Safe, Non Scam"
+        0: "🟧 Potential Scam",
+        1: "🟩 Safe, Non Scam"
     }
     risk_level = risk_levels.get(prediction, "Unknown")
 
