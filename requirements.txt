@@ -1,9 +1,9 @@
-scikit-learn
+scikit-learn==1.2.2
 pandas
 numpy
-streamlit
+streamlit=1.26.0
 nltk
-joblib
+joblib=1.2.0
 myTokenize
 emoji
 scipy
