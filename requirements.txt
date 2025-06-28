@@ -3,7 +3,7 @@ pandas
 numpy
 streamlit==1.26.0
 nltk
-joblib=1.2.0
+joblib==1.2.0
 myTokenize
 emoji
 scipy
