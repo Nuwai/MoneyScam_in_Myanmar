@@ -8,3 +8,5 @@ myTokenize
 emoji
 scipy
 gensim
+tensorflow==2.9.0
+protobuf==3.20.3
