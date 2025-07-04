@@ -23,7 +23,6 @@ from tabulate import tabulate
 from sklearn.model_selection import GridSearchCV, RandomizedSearchCV
 import joblib
 from gensim.models import Word2Vec, FastText
-from skops.io import dump as skops_dump
 
 
 # Custom Transformer for Word2Vec & FastText
@@ -345,6 +344,7 @@ def train_and_evaluate(df):
     model_dir = "models"
     os.makedirs(model_dir, exist_ok=True)  # Ensure the "models" folder exists
     joblib.dump(best_model, os.path.join(model_dir, "scam_detector.pkl"))
+
     # Restore original stdout after training
     sys.stdout = sys.__stdout__
 

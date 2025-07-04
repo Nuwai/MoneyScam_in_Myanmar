@@ -1,11 +1,10 @@
-scikit-learn==1.2.2
+scikit-learn
 pandas
 numpy
-streamlit==1.26.0
+streamlit
 nltk
-joblib==1.2.0
+joblib
 myTokenize
 emoji
 scipy
 gensim
-protobuf==3.20.3
