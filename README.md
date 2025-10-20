@@ -4,7 +4,7 @@
 This project aims to develop a simple and effective interface that allows users to determine whether a message, post, or advertisement is fraudulent using a machine learning model. The goal is to help the general public, particularly youth, avoid falling into scams, enabling a safer and more productive life.
 
 ## **Members**
-1. Nu Wai Thet (MMDT 2024.001)
+1. Nu Wai Thet (MMDT 2024.001)(Project Leader)
 2. Myint Myat Aung Zaw (MMDT 2024.044)
 3. Kaung Myat Kyaw (MMDT 2024.073)
 4. Dr Myo Thida (Advisor)
