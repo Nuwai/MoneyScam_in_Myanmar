@@ -119,6 +119,10 @@ Install the dependencies with:
 pip install -r requirements.txt
 ```
 ---
+## **License**
+
+This project is open source under the MIT License
+
 ## **Contact**
 
 For any questions, collaboration inquiries or feedback, feel free to reach out to me on GitHub or email: nuwaithet@gmail.com
