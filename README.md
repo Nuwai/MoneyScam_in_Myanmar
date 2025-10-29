@@ -51,6 +51,40 @@ This project aims to develop a simple and effective interface that allows users 
 - **General Public Protection**: Assisting everyone in avoiding scams on social media, email, and other platforms.
 - **Advertiser and Platform Monitoring**: Helping businesses verify advertisements for legitimacy.
 
+---
+
+## **Dataset Information**
+**Data Sources**
+
+Data was collected from:
+- Public social media posts (Facebook, Telegram)
+- Victim-shared experiences
+- Common scam groups
+- Personal messages sent to mobile phones
+
+**Data Characteristics**
+
+- Due to the scarcity of scam-related Burmese text data, we ensured:
+- Collection of legitimate advertisements from banks and official sources
+- Inclusion of diverse scam categories (e.g., gambling, investment fraud, fake job postings)
+- Generation of synthetic short SMS scam messages to augment the dataset
+
+**Dataset Distribution**
+Class	Count	Description / Label
+Non-Scam	10,905	Legitimate business messages (Green Flag)
+Potential Scam	2,481	Suspicious messages needing verification (Yellow Flag)
+Scam	5,961	Confirmed scams (Red Flag)
+
+Total dataset size: 19,347 messages
+
+**Labeling:**
+
+Manual labeling by Burmese native speakers
+Three-class labeling system:
+- Fraudulent (Red Flag): Confirmed scams
+- Non-Fraudulent (Green Flag): Legitimate messages
+- Potential Scam (Yellow Flag): Suspicious, needs verification
+
 ## Methods & Approach
 **Data Preprocessing**
 
