@@ -62,7 +62,7 @@ This project aims to develop a simple and effective interface that allows users 
 
 **Feature Engineering & Modeling**
 
-    -Applied TF-IDF with bigrams alongside standard token features
+    -Applied TF-IDF, FastText, Word2Vec with bigrams alongside standard token features
     -Considered class imbalance: e.g., stratified train/test/validation splits, weighted/focal loss, sampling techniques
 
 **Models experimented with:**
@@ -76,13 +76,13 @@ This project aims to develop a simple and effective interface that allows users 
 Evaluation metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC, Log Loss
 
 ## Model Training Strategy
-1️⃣ Stratified K-Fold Cross-Validation
+1. Stratified K-Fold Cross-Validation
 
 - Maintains the original class distribution in each fold
 - Helps handle imbalanced data
 - Ensures fair and consistent model evaluation
 
-2️⃣ Train / Validation / Test Split
+2. Train / Validation / Test Split
 
 Dataset split:
 - Train: 80%
@@ -92,19 +92,19 @@ The Train set was further split into:
 - Train Pool: 80%
 - Validation: 20%
 
-3️⃣ Cross-Validation for Model Selection
+3. Cross-Validation for Model Selection
 
 - Applied Stratified K-Fold on the Train Pool
 - Models evaluated using:
     - Accuracy, F1-Score, Precision, Recall, ROC-AUC, and Log Loss
 - Best model selected based on F1-Score (balance between precision & recall)
 
-4️⃣ Hyperparameter Tuning
+4. Hyperparameter Tuning
 
 - Tuned the selected model on the Validation Set
 - Objective: Optimize performance while avoiding data leakage
 
-5️⃣ Final Training & Testing
+5. Final Training & Testing
 
 - Trained the best model on the full Training Pool
 - Evaluated final performance on the unseen Test Set
@@ -114,9 +114,9 @@ The Train set was further split into:
 Use three feature extraction methods:
 | **Method**   | **Representation Type** | **Learns from Context?** | **Handles Misspellings?** | **Captures Subwords?** | **Best For**                         |
 | :----------- | :---------------------- | :----------------------: | :-----------------------: | :--------------------: | :----------------------------------- |
-| **TF-IDF**   | Word frequency-based    |             ❌            |             ❌             |            ❌           | Simple keyword-based classification  |
-| **Word2Vec** | Full-word vectors       |             ✅            |             ❌             |            ❌           | Understanding semantic relationships |
-| **FastText** | Subword-based vectors   |             ✅            |             ✅             |            ✅           | Handling typos & unseen words        |
+| **TF-IDF**   | Word frequency-based    |             No            |             No             |            No           | Simple keyword-based classification  |
+| **Word2Vec** | Full-word vectors       |             Yes            |             No             |            No          | Understanding semantic relationships |
+| **FastText** | Subword-based vectors   |             Yes            |             Yes            |            Yes           | Handling typos & unseen words        |
 
 ✨ Key Takeaways
 - TF-IDF: Simple and effective for bag-of-words models, but does not capture semantic meaning.
