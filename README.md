@@ -71,7 +71,7 @@ Data was collected from:
 
 **Dataset Distribution**
 
-![Class Distribution]([image-url](https://github.com/Nuwai/MoneyScam_in_Myanmar/blob/main/burmese_money_scam_classification/moneyscamclassdist.png))
+![Class Distribution]([image-url](moneyscamclassdist.png))
 
 **Labeling:**
 
