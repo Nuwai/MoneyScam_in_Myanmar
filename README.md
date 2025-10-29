@@ -84,17 +84,17 @@ Evaluation metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC
 ---
 ## Why This Matters
 
-- **Scams in Myanmar increasingly target youth on social platforms and use Burmese/English code-mixing.
-- **By building tools specifically tailored to Burmese content and vernacular usage, this project fills a critical gap in local digital safety infrastructure.
-- **The modular design makes it transferable to other contexts or languages with minimal adjustments
+- Scams in Myanmar increasingly target youth on social platforms and use Burmese/English code-mixing.
+- By building tools specifically tailored to Burmese content and vernacular usage, this project fills a critical gap in local digital safety infrastructure.
+- The modular design makes it transferable to other contexts or languages with minimal adjustments
 
 ## Next Steps & Opportunities
 
-- **Expand model to cover more classes: e.g., “Investment Scam”, “Job Scam”, “Phishing”, etc.
-- **Deploy a real-time Telegram bot or web service for public use.
-- **Incorporate deep-learning embeddings (e.g., Burmese language models) for richer representation.
-- **Collect more data (especially for minority classes) to improve performance and generalization.
-- **Build a public awareness dashboard or visualisation site to promote findings.
+- Expand model to cover more classes: e.g., “Investment Scam”, “Job Scam”, “Phishing”, etc.
+- Deploy a real-time Telegram bot or web service for public use.
+- Incorporate deep-learning embeddings (e.g., Burmese language models) for richer representation.
+- Collect more data (especially for minority classes) to improve performance and generalization.
+- Build a public awareness dashboard or visualisation site to promote findings.
 
 ## **Members**
 1. Nu Wai Thet (MMDT 2024.001)(Project Leader)
@@ -118,8 +118,8 @@ Install the dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-
+---
 ## **Contact**
 
 For any questions, collaboration inquiries or feedback, feel free to reach out to me on GitHub or email: nuwaithet@gmail.com
-Follow me on LinkedIn:https://www.linkedin.com/in/nuwai-thet-sophia/
+Follow me on LinkedIn: https://www.linkedin.com/in/nuwai-thet-sophia/
