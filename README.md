@@ -1,7 +1,7 @@
 # **Fraud Detection Tool: Safeguard Against Scams**
 
 ## **Overview**
-Financial scams targeting Myanmar’s digital users are increasingly sophisticated. This project aims to build a robust tool to **detect and alert** users when a message, advertisement, or post may be fraudulent — especially in the Burmese language and context.  
+Financial scams targeting Myanmar’s digital users are increasingly sophisticated. This project aims to build a robust tool to **detect and alert** users when a message, advertisement, or post may be fraudulent, especially in the Burmese language and context.  
 By combining real-world data collection, low-resource NLP, feature engineering, classical ML and model deployment, the goal is to raise public awareness and reduce scam impact in Myanmar.
 
 This project aims to develop a simple and effective interface that allows users to determine whether a message, post, or advertisement is fraudulent using a machine learning model. The goal is to help the general public, particularly youth, avoid falling into scams, enabling a safer and more productive life.
