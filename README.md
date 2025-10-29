@@ -70,12 +70,8 @@ Data was collected from:
 - Generation of synthetic short SMS scam messages to augment the dataset
 
 **Dataset Distribution**
-Class	Count	Description / Label
-Non-Scam	10,905	Legitimate business messages (Green Flag)
-Potential Scam	2,481	Suspicious messages needing verification (Yellow Flag)
-Scam	5,961	Confirmed scams (Red Flag)
 
-Total dataset size: 19,347 messages
+![Class Distribution]([image-url](https://github.com/Nuwai/MoneyScam_in_Myanmar/blob/main/burmese_money_scam_classification/moneyscamclassdist.png))
 
 **Labeling:**
 
