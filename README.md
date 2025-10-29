@@ -5,6 +5,7 @@ Financial scams targeting Myanmar’s digital users are increasingly sophisticat
 By combining real-world data collection, low-resource NLP, feature engineering, classical ML and model deployment, the goal is to raise public awareness and reduce scam impact in Myanmar.
 
 This project aims to develop a simple and effective interface that allows users to determine whether a message, post, or advertisement is fraudulent using a machine learning model. The goal is to help the general public, particularly youth, avoid falling into scams, enabling a safer and more productive life.
+
 ---
 ## Key Highlights  
 - Focused on Burmese-language scam detection (a low-resource NLP setting)  
