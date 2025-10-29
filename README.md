@@ -24,17 +24,25 @@ This project aims to develop a simple and effective interface that allows users 
 
 ---
 ## Folder Structure  
-├── datasets/ # Raw & processed data files
-├── burmese_money_scam_classification/ # Main codebase for classification
-│ ├── preprocess_text.py # Text cleaning & tokenization module
-│ ├── transformer.py # Custom transformers & pipeline definitions
-│ ├── metrics.py # Evaluation metrics functions (confusion matrix, ROC-AUC, log-loss)
-│ ├── train.py # Model training script (handles splitting, CV, model saving)
-│ ├── evaluate.py # Script to evaluate best model on hold-out set
-│ └── README.md # Project-specific README
-├── requirements.txt # Python dependencies
-├── runtime.txt # Runtime environment specification
-└── README.md # This top-level project README
+```
+├── burmese_money_scam_classification/      # Main project package
+│   ├── data/                               # Processed and intermediate data files
+│   ├── models/                             # Saved model files (Word2Vec, FastText, etc.)
+│   ├── result_log_files/                   # Training logs and model evaluation results
+│   ├── Burmese Money Scam Classification report summary.docx  # Project summary report
+│   ├── fasttext.model                      # Trained FastText embedding model
+│   ├── money_scam_EDA.ipynb                # Exploratory Data Analysis notebook
+│   ├── preprocess_text.py                  # Text preprocessing and tokenization module
+│   ├── streamlit_deployment.py             # Streamlit app for model deployment
+│   ├── transformer_pipeline.py             # Custom transformers and ML pipeline
+│   ├── word2vec.model                      # Trained Word2Vec embedding model
+│   └── word2vwc_fasttext_vectorizer.ipynb  # Embedding training & comparison notebook
+│
+├── datasets/                               # Raw and external dataset files
+│
+└── README.md                               # Top-level project documentation
+
+---
 
 ## **Use Cases**
 - **Youth Awareness**: Helping young individuals identify fraudulent job offers, investment schemes, or phishing messages.
