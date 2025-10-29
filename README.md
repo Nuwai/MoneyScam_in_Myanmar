@@ -71,7 +71,7 @@ Data was collected from:
 
 **Dataset Distribution**
 
-![Class Distribution]([image-url](moneyscamclassdist.png))
+<img width="589" height="455" alt="Image" src="https://github.com/user-attachments/assets/39f94ea2-993c-4ac3-88ed-8e2767d50e80" />
 
 **Labeling:**
 
