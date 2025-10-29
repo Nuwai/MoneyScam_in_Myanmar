@@ -25,24 +25,26 @@ This project aims to develop a simple and effective interface that allows users 
 ---
 ## Folder Structure  
 ```
-├── burmese_money_scam_classification/      # Main project package
-│   ├── data/                               # Processed and intermediate data files
-│   ├── models/                             # Saved model files (Word2Vec, FastText, etc.)
-│   ├── result_log_files/                   # Training logs and model evaluation results
+├── burmese_money_scam_classification/        # Main project package
+│   ├── __pycache__/                          # Cached Python bytecode
+│   ├── data/                                 # Processed and intermediate data files
+│   ├── models/                               # Saved model files (Word2Vec, FastText, etc.)
+│   ├── result_log_files/                     # Training logs and evaluation results
 │   ├── Burmese Money Scam Classification report summary.docx  # Project summary report
-│   ├── fasttext.model                      # Trained FastText embedding model
-│   ├── money_scam_EDA.ipynb                # Exploratory Data Analysis notebook
-│   ├── preprocess_text.py                  # Text preprocessing and tokenization module
-│   ├── streamlit_deployment.py             # Streamlit app for model deployment
-│   ├── transformer_pipeline.py             # Custom transformers and ML pipeline
-│   ├── word2vec.model                      # Trained Word2Vec embedding model
-│   └── word2vwc_fasttext_vectorizer.ipynb  # Embedding training & comparison notebook
+│   ├── Burmese money scam_summary.pptx       # Presentation summarizing findings and workflow
+│   ├── moneyscam_literature_reivew.pptx      # Literature review presentation
+│   ├── fasttext.model                        # Trained FastText embedding model
+│   ├── money_scam_EDA.ipynb                  # Exploratory Data Analysis notebook
+│   ├── preprocess_text.py                    # Text preprocessing and tokenization module
+│   ├── streamlit_deployment.py               # Streamlit app for model deployment
+│   ├── transformer_pipeline.py               # Custom transformers and ML pipeline
+│   ├── word2vec.model                        # Trained Word2Vec embedding model
+│   └── word2vwc_fasttext_vectorizer.ipynb    # Embedding training & comparison notebook
 │
-├── datasets/                               # Raw and external dataset files
+├── datasets/                                 # Raw and external dataset files
 │
-└── README.md                               # Top-level project documentation
+└── README.md                                 # Top-level project documentation
 
----
 
 ## **Use Cases**
 - **Youth Awareness**: Helping young individuals identify fraudulent job offers, investment schemes, or phishing messages.
