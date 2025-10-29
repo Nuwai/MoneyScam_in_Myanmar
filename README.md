@@ -118,7 +118,7 @@ Use three feature extraction methods:
 | **Word2Vec** | Full-word vectors       |             Yes            |             No             |            No          | Understanding semantic relationships |
 | **FastText** | Subword-based vectors   |             Yes            |             Yes            |            Yes           | Handling typos & unseen words        |
 
-✨ Key Takeaways
+Key Takeaways
 - TF-IDF: Simple and effective for bag-of-words models, but does not capture semantic meaning.
 - Word2Vec: Captures contextual relationships but struggles with misspellings.
 - FastText: Most robust for noisy Burmese text, thanks to its subword and typo handling.
