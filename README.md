@@ -44,7 +44,7 @@ This project aims to develop a simple and effective interface that allows users 
 ├── datasets/                                 # Raw and external dataset files
 │
 └── README.md                                 # Top-level project documentation
-
+```
 
 ## **Use Cases**
 - **Youth Awareness**: Helping young individuals identify fraudulent job offers, investment schemes, or phishing messages.
@@ -117,9 +117,9 @@ Evaluation metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC
 Install the dependencies with:
 ```bash
 pip install -r requirements.txt
----
+```
 
-Contact
+## **Contact**
 
 For any questions, collaboration inquiries or feedback, feel free to reach out to me on GitHub or email: nuwaithet@gmail.com
 Follow me on LinkedIn:https://www.linkedin.com/in/nuwai-thet-sophia/
