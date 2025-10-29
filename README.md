@@ -78,37 +78,37 @@ Evaluation metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC
 ## Model Training Strategy
 1. Stratified K-Fold Cross-Validation
 
-- Maintains the original class distribution in each fold
-- Helps handle imbalanced data
-- Ensures fair and consistent model evaluation
+    - Maintains the original class distribution in each fold
+    - Helps handle imbalanced data
+    - Ensures fair and consistent model evaluation
 
 2. Train / Validation / Test Split
 
-Dataset split:
-- Train: 80%
-- Test: 20%
-
-The Train set was further split into:
-- Train Pool: 80%
-- Validation: 20%
+    Dataset split:
+    - Train: 80%
+    - Test: 20%
+    
+    The Train set was further split into:
+    - Train Pool: 80%
+    - Validation: 20%
 
 3. Cross-Validation for Model Selection
 
-- Applied Stratified K-Fold on the Train Pool
-- Models evaluated using:
-    - Accuracy, F1-Score, Precision, Recall, ROC-AUC, and Log Loss
-- Best model selected based on F1-Score (balance between precision & recall)
+    - Applied Stratified K-Fold on the Train Pool
+    - Models evaluated using:
+        - Accuracy, F1-Score, Precision, Recall, ROC-AUC, and Log Loss
+    - Best model selected based on F1-Score (balance between precision & recall)
 
 4. Hyperparameter Tuning
 
-- Tuned the selected model on the Validation Set
-- Objective: Optimize performance while avoiding data leakage
+    - Tuned the selected model on the Validation Set
+    - Objective: Optimize performance while avoiding data leakage
 
 5. Final Training & Testing
 
-- Trained the best model on the full Training Pool
-- Evaluated final performance on the unseen Test Set
-- Produced the final performance report below
+    - Trained the best model on the full Training Pool
+    - Evaluated final performance on the unseen Test Set
+    - Produced the final performance report below
 
 ## Feature Extraction Methods
 Use three feature extraction methods:
