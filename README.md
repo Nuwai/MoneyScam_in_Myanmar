@@ -75,6 +75,80 @@ This project aims to develop a simple and effective interface that allows users 
 
 Evaluation metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC, Log Loss
 
+## Model Training Strategy
+1️⃣ Stratified K-Fold Cross-Validation
+
+- Maintains the original class distribution in each fold
+- Helps handle imbalanced data
+- Ensures fair and consistent model evaluation
+
+2️⃣ Train / Validation / Test Split
+
+Dataset split:
+- Train: 80%
+- Test: 20%
+
+The Train set was further split into:
+- Train Pool: 80%
+- Validation: 20%
+
+3️⃣ Cross-Validation for Model Selection
+
+- Applied Stratified K-Fold on the Train Pool
+- Models evaluated using:
+    - Accuracy, F1-Score, Precision, Recall, ROC-AUC, and Log Loss
+- Best model selected based on F1-Score (balance between precision & recall)
+
+4️⃣ Hyperparameter Tuning
+
+- Tuned the selected model on the Validation Set
+- Objective: Optimize performance while avoiding data leakage
+
+5️⃣ Final Training & Testing
+
+- Trained the best model on the full Training Pool
+- Evaluated final performance on the unseen Test Set
+- Produced the final performance report below
+
+## Feature Extraction Methods
+Use three feature extraction methods:
+| **Method**   | **Representation Type** | **Learns from Context?** | **Handles Misspellings?** | **Captures Subwords?** | **Best For**                         |
+| :----------- | :---------------------- | :----------------------: | :-----------------------: | :--------------------: | :----------------------------------- |
+| **TF-IDF**   | Word frequency-based    |             ❌            |             ❌             |            ❌           | Simple keyword-based classification  |
+| **Word2Vec** | Full-word vectors       |             ✅            |             ❌             |            ❌           | Understanding semantic relationships |
+| **FastText** | Subword-based vectors   |             ✅            |             ✅             |            ✅           | Handling typos & unseen words        |
+
+✨ Key Takeaways
+- TF-IDF: Simple and effective for bag-of-words models, but does not capture semantic meaning.
+- Word2Vec: Captures contextual relationships but struggles with misspellings.
+- FastText: Most robust for noisy Burmese text, thanks to its subword and typo handling.
+  
+## Experimental Findings
+
+- TF-IDF with word tokenization achieved the best overall performance.
+- SVM consistently outperformed other models (Naïve Bayes, Random Forest, XGBoost).
+- Word2Vec and FastText performed less effectively, likely due to limited training data.
+
+## 🏆 Final Model — SVM (Test Set Evaluation)
+| **Metric** | **Score** |
+| :--------- | :-------: |
+| Accuracy   |   0.8897  |
+| F1-Score   |   0.8935  |
+| Precision  |   0.9019  |
+| Recall     |   0.8897  |
+| ROC-AUC    |   0.9713  |
+
+🔹 Class-wise Performance
+| **Class**          | **Precision** | **Recall** | **F1-Score** |
+| :----------------- | :-----------: | :--------: | :----------: |
+| **Potential Scam** |  🟥 **0.64**  |    0.84    |     0.72     |
+| **Non-Scam**       |      0.95     |    0.91    |     0.93     |
+| **Scam**           |      0.93     |    0.87    |     0.90     |
+
+**Insight:**
+While overall performance is strong (AUC ≈ 0.97), the model struggles with Potential Scam precision (0.64), indicating frequent misclassification with Non-Scam or Scam classes — which makes sense since Potential Scam messages often share overlapping vocabulary and structure with both legitimate and confirmed scam texts.
+Future work could focus on better class balancing, richer contextual embeddings, or incorporating domain-specific linguistic cues to improve minority class detection.
+
 ## Deployment Considerations
 
     -Model saved via joblib/pickle for easy loading
