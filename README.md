@@ -202,9 +202,11 @@ Future work could focus on better class balancing, richer contextual embeddings,
 
 ## **Members**
 1. Nu Wai Thet (MMDT 2024.001)(Project Leader)
-2. Myint Myat Aung Zaw (MMDT 2024.044)
-3. Kaung Myat Kyaw (MMDT 2024.073)
+2. Myint Myat Aung Zaw (MMDT 2024.044)(Contributor for data annotation)
+3. Kaung Myat Kyaw (MMDT 2024.073)(Contributor for data annotation)
 4. Dr Myo Thida (Advisor)
+
+**Project Presentation slide** : [Burmese money scam_summary.pptx](https://github.com/user-attachments/files/23211313/Burmese.money.scam_summary.pptx)
    
 ## **Getting Started**
 
