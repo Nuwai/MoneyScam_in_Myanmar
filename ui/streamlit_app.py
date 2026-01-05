@@ -10,8 +10,10 @@ import requests
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+SRC = ROOT / "src"
+for p in (ROOT, SRC):
+    if str(p) not in sys.path:
+        sys.path.insert(0, str(p))
 
 import preprocess_text  # noqa: E402
 from moneyscam.models.thresholds import apply_unsure_policy
