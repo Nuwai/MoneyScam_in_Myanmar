@@ -1,6 +1,7 @@
 # **Fraud Detection Tool: Safeguard Against Scams**
 
 End-to-end ML project for detecting Burmese-language scam content. Includes data prep, model training and selection, experiment tracking with MLflow, serving via FastAPI, and a Streamlit UI. Demonstrates MLOps skills: reproducible pipelines, experiment management, model artifact handling, containerization, and deployment-ready APIs.
+
 --
 
 ## Highlights
