@@ -1,0 +1,73 @@
+Metadata-Version: 2.4
+Name: burmese-money-scam-classification
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: emoji>=2.15.0
+Requires-Dist: gensim>=4.3.3
+Requires-Dist: mmdt-tokenizer
+Requires-Dist: nltk>=3.9.1
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: scikit-learn>=1.3.2
+Requires-Dist: skops>=0.9.0
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: torch>=2.5.1
+Requires-Dist: xgboost>=2.1.4
+Requires-Dist: fastapi>=0.109.0
+Requires-Dist: uvicorn[standard]>=0.27.0
+Requires-Dist: streamlit>=1.30.0
+Requires-Dist: mlflow>=2.14.0
+Requires-Dist: matplotlib>=3.10.0
+Requires-Dist: pyyaml>=6.0.1
+
+# Money Scam Detector (Burmese) — MLOps Showcase
+
+An end-to-end system for classifying Burmese scam messages using mmdt-tokenizer preprocessing, classical ML models, MLflow tracking, FastAPI serving, and Streamlit UI.
+
+```
+money-scam-mm/
+├── configs/ (train/mlflow/inference/thresholds)
+├── src/moneyscam/ (features, models, pipeline, serving)
+├── ui/streamlit_app.py
+├── tests/ (unit + API stubs)
+├── Dockerfile.api, docker-compose.yml
+└── reports/, models/, data/
+```
+
+## Quickstart
+- Install deps: `uv pip install -r requirements.txt -r requirements-dev.txt`
+- Train (classical): `uv run python -m moneyscam.pipeline.train_classical --config configs/train.yaml`
+- Run API: `uv run uvicorn moneyscam.serving.api:app --reload`
+- Run Streamlit UI: `uv run streamlit run ui/streamlit_app.py`
+
+## Experiment Tracking (MLflow)
+- Configure `configs/mlflow.yaml` or `.env` (`MLFLOW_TRACKING_URI`, `MLFLOW_EXPERIMENT_NAME`).
+- Each run logs params, CV metrics, test metrics, confusion matrix, metrics.json, classification report, and skops model.
+- Best run is tagged `best_run=true`. Optional registry name via `MLFLOW_REGISTER_MODEL_NAME`.
+
+## Threshold / Uncertainty Policy
+- `thresholds.py` applies `min_conf` and `min_margin` to route low-certainty outputs to `Potential`.
+- Presets in `configs/thresholds.yaml` (high_precision / high_recall).
+- API/Streamlit responses include `policy_reason`, `confidence`, and per-class probabilities.
+
+## Serving
+- FastAPI endpoints: `/health`, `/version`, `/predict`, `/batch_predict`, `/reload_model`.
+- Model loads from `models/` by default; optional MLflow artifact path via config.
+- Streamlit UI calls the API, shows probabilities, policy reason, and supports CSV batch scoring.
+
+## Data & Preprocessing
+- Uses `preprocess_text.py` (mmdt-tokenizer) for cleaning/tokenization.
+- Processed dataset expected at `data/processed/preprocess_mmdt_tokenizer.xlsx`.
+- Data versioning recommended via DVC; hashes logged to MLflow.
+
+## CI/CD and Ops (scaffolding)
+- Tests: `uv run pytest`; lint: `ruff`, `black --check`; types: `mypy` (add later).
+- Dockerfile.api + docker-compose (mlflow optional) for local demo.
+- Add Trivy image scan and registry promotion gates as follow-up.
+
+## Monitoring & Guardrails (roadmap)
+- Prometheus/Grafana for latency/error rate; whylogs/evidently for drift.
+- Input guardrails: max text length, optional PII/profanity scrub.
+- Batch scoring with drift reports saved to `reports/` and logged to MLflow.

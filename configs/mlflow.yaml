@@ -1,0 +1,4 @@
+mlflow:
+  tracking_uri: "file:./mlruns"
+  experiment_name: "money-scam-mm"
+  register_model_name: null

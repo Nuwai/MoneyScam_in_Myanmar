@@ -1,0 +1,1262 @@
+2026-01-05 10:45:37 - Training Started...
+2026-01-05 10:45:37 - Training Model: SVM
+2026-01-05 10:53:43 - Training Model: Decision Tree
+2026-01-05 10:54:03 - Training Model: Random Forest
+Original Class Distribution: {np.int64(-1): np.int64(10905), np.int64(0): np.int64(2481), np.int64(1): np.int64(5961)}
+Full Training Set Size: 15477
+Test Set Size: 3870
+Training Pool Size: 12381
+Validation Set Size: 3096
+Selected Vectorizer Type is tfidf.
+
+========================================
+Training Model: SVM
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (SVM)
+----------------------------------------
+Accuracy: 0.8874
+Confusion Matrix:
+ [[1271   89   36]
+ [  34  236   48]
+ [  28   44  691]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.95      0.91      0.93      1396
+           0       0.64      0.74      0.69       318
+           1       0.89      0.91      0.90       763
+
+    accuracy                           0.89      2477
+   macro avg       0.83      0.85      0.84      2477
+weighted avg       0.89      0.89      0.89      2477
+
+F1-Score: 0.8900
+ROC-AUC: 0.9685
+Log Loss: 0.2979
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (SVM)
+----------------------------------------
+Accuracy: 0.8853
+Confusion Matrix:
+ [[1281   76   38]
+ [  48  237   33]
+ [  31   58  674]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.94      0.92      0.93      1395
+           0       0.64      0.75      0.69       318
+           1       0.90      0.88      0.89       763
+
+    accuracy                           0.89      2476
+   macro avg       0.83      0.85      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8878
+ROC-AUC: 0.9708
+Log Loss: 0.2922
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (SVM)
+----------------------------------------
+Accuracy: 0.8990
+Confusion Matrix:
+ [[1290   68   38]
+ [  34  256   28]
+ [  37   45  680]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.95      0.92      0.94      1396
+           0       0.69      0.81      0.75       318
+           1       0.91      0.89      0.90       762
+
+    accuracy                           0.90      2476
+   macro avg       0.85      0.87      0.86      2476
+weighted avg       0.90      0.90      0.90      2476
+
+F1-Score: 0.9009
+ROC-AUC: 0.9748
+Log Loss: 0.2723
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (SVM)
+----------------------------------------
+Accuracy: 0.8934
+Confusion Matrix:
+ [[1281   79   36]
+ [  28  259   30]
+ [  41   50  672]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.95      0.92      0.93      1396
+           0       0.67      0.82      0.73       317
+           1       0.91      0.88      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.84      0.87      0.85      2476
+weighted avg       0.90      0.89      0.90      2476
+
+F1-Score: 0.8960
+ROC-AUC: 0.9706
+Log Loss: 0.2846
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (SVM)
+----------------------------------------
+Accuracy: 0.8901
+Confusion Matrix:
+ [[1281   86   29]
+ [  31  247   39]
+ [  32   55  676]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.95      0.92      0.94      1396
+           0       0.64      0.78      0.70       317
+           1       0.91      0.89      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.83      0.86      0.84      2476
+weighted avg       0.90      0.89      0.89      2476
+
+F1-Score: 0.8934
+ROC-AUC: 0.9691
+Log Loss: 0.2832
+----------------------------------------
+
+
+Average F1-Score for SVM: 0.8936
+
+========================================
+Training Model: Decision Tree
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8179
+Confusion Matrix:
+ [[1224   92   80]
+ [  75  183   60]
+ [  83   61  619]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.88      0.88      1396
+           0       0.54      0.58      0.56       318
+           1       0.82      0.81      0.81       763
+
+    accuracy                           0.82      2477
+   macro avg       0.75      0.75      0.75      2477
+weighted avg       0.82      0.82      0.82      2477
+
+F1-Score: 0.8190
+ROC-AUC: 0.8292
+Log Loss: 6.4537
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8195
+Confusion Matrix:
+ [[1217  108   70]
+ [  83  188   47]
+ [  66   73  624]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.87      0.88      1395
+           0       0.51      0.59      0.55       318
+           1       0.84      0.82      0.83       763
+
+    accuracy                           0.82      2476
+   macro avg       0.75      0.76      0.75      2476
+weighted avg       0.83      0.82      0.82      2476
+
+F1-Score: 0.8227
+ROC-AUC: 0.8350
+Log Loss: 6.2144
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8284
+Confusion Matrix:
+ [[1215  101   80]
+ [  70  203   45]
+ [  59   70  633]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.90      0.87      0.89      1396
+           0       0.54      0.64      0.59       318
+           1       0.84      0.83      0.83       762
+
+    accuracy                           0.83      2476
+   macro avg       0.76      0.78      0.77      2476
+weighted avg       0.84      0.83      0.83      2476
+
+F1-Score: 0.8317
+ROC-AUC: 0.8486
+Log Loss: 6.0089
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8166
+Confusion Matrix:
+ [[1213  103   80]
+ [  78  194   45]
+ [  74   74  615]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.87      0.88      1396
+           0       0.52      0.61      0.56       317
+           1       0.83      0.81      0.82       763
+
+    accuracy                           0.82      2476
+   macro avg       0.75      0.76      0.75      2476
+weighted avg       0.82      0.82      0.82      2476
+
+F1-Score: 0.8198
+ROC-AUC: 0.8350
+Log Loss: 6.2731
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8102
+Confusion Matrix:
+ [[1208  117   71]
+ [  84  174   59]
+ [  71   68  624]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.87      0.88      1396
+           0       0.48      0.55      0.51       317
+           1       0.83      0.82      0.82       763
+
+    accuracy                           0.81      2476
+   macro avg       0.73      0.74      0.74      2476
+weighted avg       0.82      0.81      0.81      2476
+
+F1-Score: 0.8131
+ROC-AUC: 0.8244
+Log Loss: 6.6903
+----------------------------------------
+
+
+Average F1-Score for Decision Tree: 0.8213
+
+========================================
+Training Model: Random Forest
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Random Forest)
+----------------------------------------
+Accuracy: 0.8845
+Confusion Matrix:
+ [[1340   36   20]
+ [  96  182   40]
+ [  73   21  669]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.96      0.92      1396
+           0       0.76      0.57      0.65       318
+           1       0.92      0.88      0.90       763
+
+    accuracy                           0.88      2477
+   macro avg       0.86      0.80      0.82      2477
+weighted avg       0.88      0.88      0.88      2477
+2026-01-05 10:55:48 - Training Model: XGBoost
+
+F1-Score: 0.8801
+ROC-AUC: 0.9652
+Log Loss: 0.3725
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Random Forest)
+----------------------------------------
+Accuracy: 0.8809
+Confusion Matrix:
+ [[1331   45   19]
+ [ 103  191   24]
+ [  77   27  659]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.88      0.95      0.92      1395
+           0       0.73      0.60      0.66       318
+           1       0.94      0.86      0.90       763
+
+    accuracy                           0.88      2476
+   macro avg       0.85      0.81      0.82      2476
+weighted avg       0.88      0.88      0.88      2476
+
+F1-Score: 0.8778
+ROC-AUC: 0.9660
+Log Loss: 0.3558
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Random Forest)
+----------------------------------------
+Accuracy: 0.8930
+Confusion Matrix:
+ [[1357   22   17]
+ [  86  203   29]
+ [  84   27  651]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.97      0.93      1396
+           0       0.81      0.64      0.71       318
+           1       0.93      0.85      0.89       762
+
+    accuracy                           0.89      2476
+   macro avg       0.88      0.82      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8896
+ROC-AUC: 0.9727
+Log Loss: 0.3399
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Random Forest)
+----------------------------------------
+Accuracy: 0.8861
+Confusion Matrix:
+ [[1335   34   27]
+ [  93  193   31]
+ [  72   25  666]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.89      0.96      0.92      1396
+           0       0.77      0.61      0.68       317
+           1       0.92      0.87      0.90       763
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.81      0.83      2476
+weighted avg       0.88      0.89      0.88      2476
+
+F1-Score: 0.8827
+ROC-AUC: 0.9680
+Log Loss: 0.3404
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Random Forest)
+----------------------------------------
+Accuracy: 0.8772
+Confusion Matrix:
+ [[1348   38   10]
+ [ 105  167   45]
+ [  77   29  657]]
+Classification Report:
+               precision    recall  f1-score   support
+
+          -1       0.88      0.97      0.92      1396
+           0       0.71      0.53      0.61       317
+           1       0.92      0.86      0.89       763
+
+    accuracy                           0.88      2476
+   macro avg       0.84      0.78      0.81      2476
+weighted avg       0.87      0.88      0.87      2476
+
+F1-Score: 0.8716
+ROC-AUC: 0.9650
+Log Loss: 0.4254
+----------------------------------------
+
+
+Average F1-Score for Random Forest: 0.8804
+
+========================================
+Training Model: XGBoost
+========================================
+2026-01-05 11:06:50 - Training Started...
+2026-01-05 11:06:50 - Training Model: SVM
+2026-01-05 11:15:17 - Training Model: Decision Tree
+2026-01-05 11:15:28 - Training Model: Random Forest
+Original Class Distribution: {np.int64(0): np.int64(10905), np.int64(1): np.int64(5961), np.int64(2): np.int64(2481)}
+Full Training Set Size: 15477
+Test Set Size: 3870
+Training Pool Size: 12381
+Validation Set Size: 3096
+Selected Vectorizer Type is tfidf.
+
+========================================
+Training Model: SVM
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (SVM)
+----------------------------------------
+Accuracy: 0.8849
+Confusion Matrix:
+ [[1284   33   79]
+ [  43  660   60]
+ [  27   43  248]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.95      0.92      0.93      1396
+           1       0.90      0.87      0.88       763
+           2       0.64      0.78      0.70       318
+
+    accuracy                           0.88      2477
+   macro avg       0.83      0.85      0.84      2477
+weighted avg       0.89      0.88      0.89      2477
+
+F1-Score: 0.8879
+ROC-AUC: 0.9661
+Log Loss: 0.3036
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (SVM)
+----------------------------------------
+Accuracy: 0.8994
+Confusion Matrix:
+ [[1284   37   75]
+ [  26  686   51]
+ [  34   26  257]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      1396
+           1       0.92      0.90      0.91       763
+           2       0.67      0.81      0.73       317
+
+    accuracy                           0.90      2476
+   macro avg       0.85      0.88      0.86      2476
+weighted avg       0.91      0.90      0.90      2476
+
+F1-Score: 0.9021
+ROC-AUC: 0.9732
+Log Loss: 0.2744
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (SVM)
+----------------------------------------
+Accuracy: 0.8982
+Confusion Matrix:
+ [[1282   36   78]
+ [  34  677   52]
+ [  23   29  265]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      1396
+           1       0.91      0.89      0.90       763
+           2       0.67      0.84      0.74       317
+
+    accuracy                           0.90      2476
+   macro avg       0.85      0.88      0.86      2476
+weighted avg       0.91      0.90      0.90      2476
+
+F1-Score: 0.9011
+ROC-AUC: 0.9734
+Log Loss: 0.2726
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (SVM)
+----------------------------------------
+Accuracy: 0.8845
+Confusion Matrix:
+ [[1260   50   86]
+ [  33  687   42]
+ [  38   37  243]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.95      0.90      0.92      1396
+           1       0.89      0.90      0.89       762
+           2       0.65      0.76      0.71       318
+
+    accuracy                           0.88      2476
+   macro avg       0.83      0.86      0.84      2476
+weighted avg       0.89      0.88      0.89      2476
+
+F1-Score: 0.8869
+ROC-AUC: 0.9693
+Log Loss: 0.2941
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (SVM)
+----------------------------------------
+Accuracy: 0.8942
+Confusion Matrix:
+ [[1287   27   81]
+ [  43  674   46]
+ [  41   24  253]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93      1395
+           1       0.93      0.88      0.91       763
+           2       0.67      0.80      0.72       318
+
+    accuracy                           0.89      2476
+   macro avg       0.84      0.87      0.85      2476
+weighted avg       0.90      0.89      0.90      2476
+
+F1-Score: 0.8966
+ROC-AUC: 0.9716
+Log Loss: 0.2793
+----------------------------------------
+
+
+Average F1-Score for SVM: 0.8949
+
+========================================
+Training Model: Decision Tree
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8107
+Confusion Matrix:
+ [[1212   83  101]
+ [  86  612   65]
+ [  85   49  184]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.87      0.87      1396
+           1       0.82      0.80      0.81       763
+           2       0.53      0.58      0.55       318
+
+    accuracy                           0.81      2477
+   macro avg       0.74      0.75      0.75      2477
+weighted avg       0.81      0.81      0.81      2477
+
+F1-Score: 0.8125
+ROC-AUC: 0.8252
+Log Loss: 6.5723
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8191
+Confusion Matrix:
+ [[1208   94   94]
+ [  63  624   76]
+ [  74   47  196]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.90      0.87      0.88      1396
+           1       0.82      0.82      0.82       763
+           2       0.54      0.62      0.57       317
+
+    accuracy                           0.82      2476
+   macro avg       0.75      0.77      0.76      2476
+weighted avg       0.83      0.82      0.82      2476
+
+F1-Score: 0.8221
+ROC-AUC: 0.8386
+Log Loss: 6.2148
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8174
+Confusion Matrix:
+ [[1206   87  103]
+ [  61  621   81]
+ [  78   42  197]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.90      0.86      0.88      1396
+           1       0.83      0.81      0.82       763
+           2       0.52      0.62      0.56       317
+
+    accuracy                           0.82      2476
+   macro avg       0.75      0.77      0.76      2476
+weighted avg       0.83      0.82      0.82      2476
+
+F1-Score: 0.8214
+ROC-AUC: 0.8382
+Log Loss: 6.2904
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8187
+Confusion Matrix:
+ [[1220   80   96]
+ [  80  631   51]
+ [  78   64  176]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      1396
+           1       0.81      0.83      0.82       762
+           2       0.54      0.55      0.55       318
+
+    accuracy                           0.82      2476
+   macro avg       0.75      0.75      0.75      2476
+weighted avg       0.82      0.82      0.82      2476
+
+F1-Score: 0.8191
+ROC-AUC: 0.8303
+Log Loss: 6.3879
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Decision Tree)
+----------------------------------------
+Accuracy: 0.8292
+Confusion Matrix:
+ [[1225   75   95]
+ [  77  629   57]
+ [  72   47  199]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.88      0.88      1395
+           1       0.84      0.82      0.83       763
+           2       0.57      0.63      0.59       318
+
+    accuracy                           0.83      2476
+   macro avg       0.77      0.78      0.77      2476
+weighted avg       0.83      0.83      0.83      2476
+
+F1-Score: 0.8310
+ROC-AUC: 0.8458
+Log Loss: 5.8982
+----------------------------------------
+
+
+Average F1-Score for Decision Tree: 0.8212
+
+========================================
+Training Model: Random Forest
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Random Forest)
+----------------------------------------
+Accuracy: 0.8660
+Confusion Matrix:
+ [[1342   18   36]
+ [  91  629   43]
+ [ 105   39  174]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91      1396
+           1       0.92      0.82      0.87       763
+           2       0.69      0.55      0.61       318
+
+    accuracy                           0.87      2477
+   macro avg       0.83      0.78      0.80      2477
+weighted avg       0.86      0.87      0.86      2477
+2026-01-05 11:16:20 - Training Model: XGBoost
+2026-01-05 11:18:03 - Training Model: SVM
+
+F1-Score: 0.8612
+ROC-AUC: 0.9640
+Log Loss: 0.3830
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Random Forest)
+----------------------------------------
+Accuracy: 0.8861
+Confusion Matrix:
+ [[1341   20   35]
+ [  75  664   24]
+ [  87   41  189]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.96      0.93      1396
+           1       0.92      0.87      0.89       763
+           2       0.76      0.60      0.67       317
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.81      0.83      2476
+weighted avg       0.88      0.89      0.88      2476
+
+F1-Score: 0.8823
+ROC-AUC: 0.9679
+Log Loss: 0.3798
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Random Forest)
+----------------------------------------
+Accuracy: 0.8946
+Confusion Matrix:
+ [[1352   18   26]
+ [  70  667   26]
+ [  92   29  196]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93      1396
+           1       0.93      0.87      0.90       763
+           2       0.79      0.62      0.69       317
+
+    accuracy                           0.89      2476
+   macro avg       0.87      0.82      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8911
+ROC-AUC: 0.9702
+Log Loss: 0.3328
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Random Forest)
+----------------------------------------
+Accuracy: 0.8849
+Confusion Matrix:
+ [[1340   24   32]
+ [  64  675   23]
+ [  93   49  176]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93      1396
+           1       0.90      0.89      0.89       762
+           2       0.76      0.55      0.64       318
+
+    accuracy                           0.88      2476
+   macro avg       0.85      0.80      0.82      2476
+weighted avg       0.88      0.88      0.88      2476
+
+F1-Score: 0.8798
+ROC-AUC: 0.9639
+Log Loss: 0.3796
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Random Forest)
+----------------------------------------
+Accuracy: 0.8837
+Confusion Matrix:
+ [[1349   16   30]
+ [  87  647   29]
+ [  97   29  192]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92      1395
+           1       0.93      0.85      0.89       763
+           2       0.76      0.60      0.67       318
+
+    accuracy                           0.88      2476
+   macro avg       0.86      0.81      0.83      2476
+weighted avg       0.88      0.88      0.88      2476
+
+F1-Score: 0.8799
+ROC-AUC: 0.9695
+Log Loss: 0.3511
+----------------------------------------
+
+
+Average F1-Score for Random Forest: 0.8789
+
+========================================
+Training Model: XGBoost
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (XGBoost)
+----------------------------------------
+Accuracy: 0.8821
+Confusion Matrix:
+ [[1336   25   35]
+ [  63  660   40]
+ [  85   44  189]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93      1396
+           1       0.91      0.87      0.88       763
+           2       0.72      0.59      0.65       318
+
+    accuracy                           0.88      2477
+   macro avg       0.84      0.81      0.82      2477
+weighted avg       0.88      0.88      0.88      2477
+
+F1-Score: 0.8788
+ROC-AUC: 0.9684
+Log Loss: 0.2947
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (XGBoost)
+----------------------------------------
+Accuracy: 0.8942
+Confusion Matrix:
+ [[1339   28   29]
+ [  49  684   30]
+ [  86   40  191]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1396
+           1       0.91      0.90      0.90       763
+           2       0.76      0.60      0.67       317
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.82      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8906
+ROC-AUC: 0.9733
+Log Loss: 0.2732
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (XGBoost)
+----------------------------------------
+Accuracy: 0.8954
+Confusion Matrix:
+ [[1329   33   34]
+ [  57  673   33]
+ [  66   36  215]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93      1396
+           1       0.91      0.88      0.89       763
+           2       0.76      0.68      0.72       317
+
+    accuracy                           0.90      2476
+   macro avg       0.86      0.84      0.85      2476
+weighted avg       0.89      0.90      0.89      2476
+
+F1-Score: 0.8937
+ROC-AUC: 0.9729
+Log Loss: 0.2724
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (XGBoost)
+----------------------------------------
+Accuracy: 0.8934
+Confusion Matrix:
+ [[1323   39   34]
+ [  42  692   28]
+ [  73   48  197]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93      1396
+           1       0.89      0.91      0.90       762
+           2       0.76      0.62      0.68       318
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.83      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8905
+ROC-AUC: 0.9713
+Log Loss: 0.2786
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (XGBoost)
+----------------------------------------
+Accuracy: 0.8938
+Confusion Matrix:
+ [[1334   17   44]
+ [  58  675   30]
+ [  75   39  204]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1395
+           1       0.92      0.88      0.90       763
+           2       0.73      0.64      0.68       318
+
+    accuracy                           0.89      2476
+   macro avg       0.86      0.83      0.84      2476
+weighted avg       0.89      0.89      0.89      2476
+
+F1-Score: 0.8916
+ROC-AUC: 0.9721
+Log Loss: 0.2797
+----------------------------------------
+
+
+Average F1-Score for XGBoost: 0.8890
+
+========================================
+Training Model: SVM
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (SVM)
+----------------------------------------
+Accuracy: 0.8849
+Confusion Matrix:
+ [[1284   33   79]
+ [  43  660   60]
+ [  27   43  248]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.95      0.92      0.93      1396
+           1       0.90      0.87      0.88       763
+           2       0.64      0.78      0.70       318
+
+    accuracy                           0.88      2477
+   macro avg       0.83      0.85      0.84      2477
+weighted avg       0.89      0.88      0.89      2477
+
+F1-Score: 0.8879
+ROC-AUC: 0.9660
+Log Loss: 0.3037
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (SVM)
+----------------------------------------
+Accuracy: 0.8994
+Confusion Matrix:
+ [[1284   37   75]
+ [  26  686   51]
+ [  34   26  257]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      1396
+           1       0.92      0.90      0.91       763
+           2       0.67      0.81      0.73       317
+
+    accuracy                           0.90      2476
+   macro avg       0.85      0.88      0.86      2476
+weighted avg       0.91      0.90      0.90      2476
+2026-01-05 11:25:30 - Training Model: Naive Bayes
+
+F1-Score: 0.9021
+ROC-AUC: 0.9732
+Log Loss: 0.2746
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (SVM)
+----------------------------------------
+Accuracy: 0.8982
+Confusion Matrix:
+ [[1282   36   78]
+ [  34  677   52]
+ [  23   29  265]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94      1396
+           1       0.91      0.89      0.90       763
+           2       0.67      0.84      0.74       317
+
+    accuracy                           0.90      2476
+   macro avg       0.85      0.88      0.86      2476
+weighted avg       0.91      0.90      0.90      2476
+
+F1-Score: 0.9011
+ROC-AUC: 0.9735
+Log Loss: 0.2725
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (SVM)
+----------------------------------------
+Accuracy: 0.8845
+Confusion Matrix:
+ [[1260   50   86]
+ [  33  687   42]
+ [  38   37  243]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.95      0.90      0.92      1396
+           1       0.89      0.90      0.89       762
+           2       0.65      0.76      0.71       318
+
+    accuracy                           0.88      2476
+   macro avg       0.83      0.86      0.84      2476
+weighted avg       0.89      0.88      0.89      2476
+
+F1-Score: 0.8869
+ROC-AUC: 0.9692
+Log Loss: 0.2942
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (SVM)
+----------------------------------------
+Accuracy: 0.8942
+Confusion Matrix:
+ [[1287   27   81]
+ [  43  674   46]
+ [  41   24  253]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93      1395
+           1       0.93      0.88      0.91       763
+           2       0.67      0.80      0.72       318
+
+    accuracy                           0.89      2476
+   macro avg       0.84      0.87      0.85      2476
+weighted avg       0.90      0.89      0.90      2476
+
+F1-Score: 0.8966
+ROC-AUC: 0.9716
+Log Loss: 0.2791
+----------------------------------------
+
+
+Average F1-Score for SVM: 0.8949
+
+========================================
+Training Model: Naive Bayes
+========================================
+
+----------------------------------------
+Evaluating Fold 1 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8547
+Confusion Matrix:
+ [[1298   43   55]
+ [  90  659   14]
+ [  92   66  160]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.93      0.90      1396
+           1       0.86      0.86      0.86       763
+           2       0.70      0.50      0.59       318
+
+    accuracy                           0.85      2477
+   macro avg       0.81      0.77      0.78      2477
+weighted avg       0.85      0.85      0.85      2477
+
+F1-Score: 0.8490
+ROC-AUC: 0.9560
+Log Loss: 0.3623
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 2 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8619
+Confusion Matrix:
+ [[1301   42   53]
+ [  81  663   19]
+ [  92   55  170]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91      1396
+           1       0.87      0.87      0.87       763
+           2       0.70      0.54      0.61       317
+
+    accuracy                           0.86      2476
+   macro avg       0.82      0.78      0.80      2476
+weighted avg       0.86      0.86      0.86      2476
+
+F1-Score: 0.8573
+ROC-AUC: 0.9601
+Log Loss: 0.3502
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 3 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8691
+Confusion Matrix:
+ [[1301   53   42]
+ [  79  670   14]
+ [  82   54  181]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      1396
+           1       0.86      0.88      0.87       763
+           2       0.76      0.57      0.65       317
+
+    accuracy                           0.87      2476
+   macro avg       0.84      0.79      0.81      2476
+weighted avg       0.87      0.87      0.87      2476
+
+F1-Score: 0.8651
+ROC-AUC: 0.9654
+Log Loss: 0.3341
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 4 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8562
+Confusion Matrix:
+ [[1286   49   61]
+ [  72  673   17]
+ [  93   64  161]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      1396
+           1       0.86      0.88      0.87       762
+           2       0.67      0.51      0.58       318
+
+    accuracy                           0.86      2476
+   macro avg       0.81      0.77      0.78      2476
+weighted avg       0.85      0.86      0.85      2476
+
+F1-Score: 0.8512
+ROC-AUC: 0.9539
+Log Loss: 0.3691
+----------------------------------------
+
+
+----------------------------------------
+Evaluating Fold 5 (Naive Bayes)
+----------------------------------------
+Accuracy: 0.8558
+Confusion Matrix:
+ [[1295   53   47]
+ [  89  662   12]
+ [  97   59  162]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      1395
+           1       0.86      0.87      0.86       763
+           2       0.73      0.51      0.60       318
+
+    accuracy                           0.86      2476
+   macro avg       0.82      0.77      0.79      2476
+weighted avg       0.85      0.86      0.85      2476
+
+F1-Score: 0.8500
+ROC-AUC: 0.9612
+Log Loss: 0.3522
+----------------------------------------
+
+
+Average F1-Score for Naive Bayes: 0.8545
+
+======================================================================
+Model Performance Summary
+======================================================================
++---------------+--------------------+
+| Model         |   Average F1-Score |
++===============+====================+
+| SVM           |             0.8949 |
++---------------+--------------------+
+| Decision Tree |             0.8212 |
++---------------+--------------------+
+| Random Forest |             0.8789 |
++---------------+--------------------+
+| XGBoost       |             0.889  |
++---------------+--------------------+
+| Naive Bayes   |             0.8545 |
++---------------+--------------------+
+
+======================================================================
+Best Model: SVM (F1-Score: 0.8949)
+======================================================================
+
+========================================
+Hyperparameter Tuning for SVM
+========================================
+Best Hyperparameters for SVM: {'classifier__kernel': 'rbf', 'classifier__gamma': 1, 'classifier__degree': 3, 'classifier__C': 0.5}
+
+========================================
+Final Evaluation on Test Set
+========================================
+Accuracy: 0.8951
+Confusion Matrix:
+ [[1980   50  151]
+ [  46 1059   88]
+ [  32   39  425]]
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.96      0.91      0.93      2181
+           1       0.92      0.89      0.90      1193
+           2       0.64      0.86      0.73       496
+
+    accuracy                           0.90      3870
+   macro avg       0.84      0.88      0.86      3870
+weighted avg       0.91      0.90      0.90      3870
+
+F1-Score: 0.8993
+Precision: 0.9086
+Recall: 0.8951
+ROC-AUC: 0.9750
+Log Loss: 0.2636
+----------------------------------------
+
+
+Training Complete. Logs saved in: C:\Users\nuwai\Documents\Sophia_Skill_Development\Sophia_projects\Burmese Scam Detector\burmese_money_scam_classification\result_log_files/money_scam_training_results_tfidf.log

@@ -1,0 +1,178 @@
+2026-01-05 12:02:26 - Training Started...
+2026-01-05 12:02:27 - Training Model: Logistic Regression
+2026-01-05 12:02:27 - loading FastText object from fasttext.model
+2026-01-05 12:02:27 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:02:27 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:02:53 - setting ignored attribute buckets_word to None
+2026-01-05 12:02:53 - setting ignored attribute vectors to None
+2026-01-05 12:02:55 - setting ignored attribute cum_table to None
+2026-01-05 12:02:56 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:02:56.027694', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:03:45 - loading FastText object from fasttext.model
+2026-01-05 12:03:45 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:03:45 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:04:34 - setting ignored attribute buckets_word to None
+2026-01-05 12:04:34 - setting ignored attribute vectors to None
+2026-01-05 12:04:40 - setting ignored attribute cum_table to None
+2026-01-05 12:04:41 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:04:41.312873', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:08:47 - Training Started...
+2026-01-05 12:08:49 - Training Model: Logistic Regression
+2026-01-05 12:08:50 - loading FastText object from fasttext.model
+2026-01-05 12:08:50 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:08:50 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:09:21 - setting ignored attribute buckets_word to None
+2026-01-05 12:09:22 - setting ignored attribute vectors to None
+2026-01-05 12:09:24 - setting ignored attribute cum_table to None
+2026-01-05 12:09:24 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:09:24.881899', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:10:35 - loading FastText object from fasttext.model
+2026-01-05 12:10:35 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:10:35 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:10:55 - setting ignored attribute buckets_word to None
+2026-01-05 12:10:55 - setting ignored attribute vectors to None
+2026-01-05 12:10:58 - setting ignored attribute cum_table to None
+2026-01-05 12:10:59 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:10:59.532574', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:13:04 - loading FastText object from fasttext.model
+2026-01-05 12:13:04 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:13:04 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:13:29 - setting ignored attribute buckets_word to None
+2026-01-05 12:13:29 - setting ignored attribute vectors to None
+2026-01-05 12:13:31 - setting ignored attribute cum_table to None
+2026-01-05 12:13:31 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:13:31.354907', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:14:19 - loading FastText object from fasttext.model
+2026-01-05 12:14:19 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:14:19 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:14:46 - setting ignored attribute buckets_word to None
+2026-01-05 12:14:46 - setting ignored attribute vectors to None
+2026-01-05 12:14:50 - setting ignored attribute cum_table to None
+2026-01-05 12:14:50 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:14:50.685464', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:15:25 - loading FastText object from fasttext.model
+2026-01-05 12:15:25 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:15:25 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:15:47 - setting ignored attribute buckets_word to None
+2026-01-05 12:15:47 - setting ignored attribute vectors to None
+2026-01-05 12:15:50 - setting ignored attribute cum_table to None
+2026-01-05 12:15:51 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:15:51.100497', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:16:21 - Training Model: Decision Tree
+2026-01-05 12:16:21 - loading FastText object from fasttext.model
+2026-01-05 12:16:21 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:16:21 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:16:59 - setting ignored attribute buckets_word to None
+2026-01-05 12:16:59 - setting ignored attribute vectors to None
+2026-01-05 12:17:01 - setting ignored attribute cum_table to None
+2026-01-05 12:17:01 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:17:01.442560', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:18:07 - loading FastText object from fasttext.model
+2026-01-05 12:18:08 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:18:08 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:18:50 - setting ignored attribute buckets_word to None
+2026-01-05 12:18:50 - setting ignored attribute vectors to None
+2026-01-05 12:18:54 - setting ignored attribute cum_table to None
+2026-01-05 12:18:55 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:18:55.032109', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:20:11 - loading FastText object from fasttext.model
+2026-01-05 12:20:11 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:20:11 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:21:16 - setting ignored attribute buckets_word to None
+2026-01-05 12:21:16 - setting ignored attribute vectors to None
+2026-01-05 12:21:19 - setting ignored attribute cum_table to None
+2026-01-05 12:21:19 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:21:19.827825', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:23:25 - loading FastText object from fasttext.model
+2026-01-05 12:23:25 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:23:25 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:25:08 - setting ignored attribute buckets_word to None
+2026-01-05 12:25:09 - setting ignored attribute vectors to None
+2026-01-05 12:25:13 - setting ignored attribute cum_table to None
+2026-01-05 12:25:14 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:25:14.052281', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:26:55 - loading FastText object from fasttext.model
+2026-01-05 12:26:55 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:26:55 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:28:11 - setting ignored attribute buckets_word to None
+2026-01-05 12:28:12 - setting ignored attribute vectors to None
+2026-01-05 12:28:18 - setting ignored attribute cum_table to None
+2026-01-05 12:28:19 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:28:19.071861', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:29:23 - Training Model: Random Forest
+2026-01-05 12:29:23 - loading FastText object from fasttext.model
+2026-01-05 12:29:23 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:29:23 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:30:56 - setting ignored attribute buckets_word to None
+2026-01-05 12:30:57 - setting ignored attribute vectors to None
+2026-01-05 12:31:09 - setting ignored attribute cum_table to None
+2026-01-05 12:31:10 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:31:10.051443', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:34:08 - Training Started...
+2026-01-05 12:34:08 - Training Model: Logistic Regression
+2026-01-05 12:34:08 - loading FastText object from fasttext.model
+2026-01-05 12:34:08 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:34:08 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:34:15 - setting ignored attribute buckets_word to None
+2026-01-05 12:34:15 - setting ignored attribute vectors to None
+2026-01-05 12:34:16 - setting ignored attribute cum_table to None
+2026-01-05 12:34:16 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:34:16.880832', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:34:58 - loading FastText object from fasttext.model
+2026-01-05 12:34:59 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:34:59 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:35:14 - setting ignored attribute buckets_word to None
+2026-01-05 12:35:14 - setting ignored attribute vectors to None
+2026-01-05 12:35:16 - setting ignored attribute cum_table to None
+2026-01-05 12:35:16 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:35:16.753578', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:35:43 - loading FastText object from fasttext.model
+2026-01-05 12:35:43 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:35:43 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:36:24 - setting ignored attribute buckets_word to None
+2026-01-05 12:36:24 - setting ignored attribute vectors to None
+2026-01-05 12:36:28 - setting ignored attribute cum_table to None
+2026-01-05 12:36:28 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:36:28.897342', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:37:26 - loading FastText object from fasttext.model
+2026-01-05 12:37:26 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:37:26 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:38:07 - setting ignored attribute buckets_word to None
+2026-01-05 12:38:07 - setting ignored attribute vectors to None
+2026-01-05 12:38:11 - setting ignored attribute cum_table to None
+2026-01-05 12:38:12 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:38:12.097845', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:38:47 - loading FastText object from fasttext.model
+2026-01-05 12:38:48 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:38:48 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:39:28 - setting ignored attribute buckets_word to None
+2026-01-05 12:39:28 - setting ignored attribute vectors to None
+2026-01-05 12:39:30 - setting ignored attribute cum_table to None
+2026-01-05 12:39:30 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:39:30.931720', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:39:58 - Training Model: Decision Tree
+2026-01-05 12:39:58 - loading FastText object from fasttext.model
+2026-01-05 12:39:58 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:39:58 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:40:48 - setting ignored attribute buckets_word to None
+2026-01-05 12:40:48 - setting ignored attribute vectors to None
+2026-01-05 12:40:50 - setting ignored attribute cum_table to None
+2026-01-05 12:40:50 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:40:50.758152', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:42:47 - loading FastText object from fasttext.model
+2026-01-05 12:42:48 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:42:48 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:44:58 - setting ignored attribute buckets_word to None
+2026-01-05 12:45:00 - setting ignored attribute vectors to None
+2026-01-05 12:45:12 - setting ignored attribute cum_table to None
+2026-01-05 12:45:13 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:45:13.607966', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:46:09 - loading FastText object from fasttext.model
+2026-01-05 12:46:09 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:46:09 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:47:50 - setting ignored attribute buckets_word to None
+2026-01-05 12:47:51 - setting ignored attribute vectors to None
+2026-01-05 12:47:55 - setting ignored attribute cum_table to None
+2026-01-05 12:47:57 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:47:57.208025', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:48:30 - loading FastText object from fasttext.model
+2026-01-05 12:48:30 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:48:30 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:52:02 - setting ignored attribute buckets_word to None
+2026-01-05 12:52:03 - setting ignored attribute vectors to None
+2026-01-05 12:52:12 - setting ignored attribute cum_table to None
+2026-01-05 12:52:13 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:52:13.693984', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 12:52:47 - loading FastText object from fasttext.model
+2026-01-05 12:52:47 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 12:52:47 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 12:57:43 - setting ignored attribute buckets_word to None
+2026-01-05 12:58:04 - setting ignored attribute vectors to None
+2026-01-05 12:58:21 - setting ignored attribute cum_table to None
+2026-01-05 12:58:24 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T12:58:24.104060', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}
+2026-01-05 13:00:20 - Training Model: Random Forest
+2026-01-05 13:00:21 - loading FastText object from fasttext.model
+2026-01-05 13:00:21 - loading wv recursively from fasttext.model.wv.* with mmap=None
+2026-01-05 13:00:21 - loading vectors_ngrams from fasttext.model.wv.vectors_ngrams.npy with mmap=None
+2026-01-05 13:01:37 - setting ignored attribute buckets_word to None
+2026-01-05 13:01:38 - setting ignored attribute vectors to None
+2026-01-05 13:01:42 - setting ignored attribute cum_table to None
+2026-01-05 13:01:43 - FastText lifecycle event {'fname': 'fasttext.model', 'datetime': '2026-01-05T13:01:43.034857', 'gensim': '4.4.0', 'python': '3.11.13 | packaged by Anaconda, Inc. | (main, Jun  5 2025, 13:03:15) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.19045-SP0', 'event': 'loaded'}

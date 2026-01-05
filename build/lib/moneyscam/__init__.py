@@ -1,0 +1,3 @@
+"""
+Money Scam classifier package.
+"""

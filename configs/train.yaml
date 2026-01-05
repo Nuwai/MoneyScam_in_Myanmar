@@ -1,0 +1,10 @@
+training:
+  vectorizer_type: tfidf
+  cv_folds: 5
+  test_size: 0.1
+  val_size: 0.1
+  random_state: 42
+  models: []
+  use_hyperparameter_search: true
+  run_name: null
+  data_path: data/processed/preprocess_mmdt_tokenizer.xlsx

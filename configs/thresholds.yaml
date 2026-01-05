@@ -1,0 +1,7 @@
+thresholds:
+  high_precision:
+    min_conf: 0.7
+    min_margin: 0.2
+  high_recall:
+    min_conf: 0.5
+    min_margin: 0.05
