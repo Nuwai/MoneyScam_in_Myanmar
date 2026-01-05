@@ -33,9 +33,18 @@ from mmdt_tokenizer import MyanmarTokenizer
 import re
 import emoji
 import nltk
-from nltk.corpus import stopwords
 from scipy.sparse import hstack
 import os
+
+# Ensure NLTK stopwords are available (handles fresh environments like Streamlit Cloud)
+def _load_english_stopwords():
+    try:
+        from nltk.corpus import stopwords
+        return set(stopwords.words("english"))
+    except LookupError:
+        nltk.download("stopwords")
+        from nltk.corpus import stopwords
+        return set(stopwords.words("english"))
 
 # https://github.com/ye-kyaw-thu/myStopword?tab=readme-ov-file#top-100-stopwords-with-word2vec-freq-approach
 stopword_list1 = [
@@ -318,8 +327,8 @@ def separate_burmese_english(text):
 # import nltk
 # nltk.download('stopwords')
 
-# English stopwords (you can expand this list or use NLTK)
-english_stopwords = set(stopwords.words('english'))
+# English stopwords (lazy-load and download if missing)
+english_stopwords = _load_english_stopwords()
 
 # Tokenize English text
 def tokenize_english(text):
