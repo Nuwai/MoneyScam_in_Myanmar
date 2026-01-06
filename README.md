@@ -6,7 +6,7 @@ End-to-end ML project for detecting Burmese-language scam content. Includes data
 
 Live demo: https://mmfraudguard.streamlit.app/
 
-![Demo](https://raw.githubusercontent.com/Nuwai/MoneyScam_in_Myanmar/main/scam-test-demo.gif)
+![Demo](![Image](https://github.com/user-attachments/assets/34df5c1b-823d-4023-8c06-4e060fad5298))
 
 ## Highlights
 - Three-class classifier: Non-scam (0), Scam (1), Potential scam (2)
