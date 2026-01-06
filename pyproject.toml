@@ -30,6 +30,9 @@ mmdt-tokenizer = { workspace = true }
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.ruff]
+extend-exclude = ["*.ipynb"]
+
 [dependency-groups]
 dev = [
     "plotly>=6.5.0",
